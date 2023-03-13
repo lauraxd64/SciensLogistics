@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PK8HPBMRJZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PK8HPBMRJZ');
+</script>
+<title>LODISNA - TRANSPORT & LOGISTICS</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<link rel='stylesheet' id='js_composer_front-css'  href='/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.5.0' type='text/css' media='all' />
+<link rel="stylesheet" href="/wp-content/themes/lodisna/style.css">
+<link rel="pingback" href="https://lodisna.com/xmlrpc.php"/>
+<!--FAVICON-->
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+<link rel="manifest" href="/favicon/site.webmanifest">
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<!--/FAVICON-->
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v19.6.1 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>LODISNA - Empresa de transporte y logística</title>
+	<meta name="description" content="En nuestra empresa de transporte y logística podrás hacer llegar tu carga a cualquier lugar nacional o internacional de la Unión Europea." />
+	<link rel="canonical" href="https://lodisna.com/empresa-transporte-logistica/" />
+	<meta property="og:locale" content="es_ES" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="LODISNA - Empresa de transporte y logística" />
+	<meta property="og:description" content="En nuestra empresa de transporte y logística podrás hacer llegar tu carga a cualquier lugar nacional o internacional de la Unión Europea." />
+	<meta property="og:url" content="https://lodisna.com/empresa-transporte-logistica/" />
+	<meta property="og:site_name" content="LODISNA" />
+	<meta property="article:modified_time" content="2022-02-17T17:26:20+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://lodisna.com/empresa-transporte-logistica/","url":"https://lodisna.com/empresa-transporte-logistica/","name":"LODISNA - Empresa de transporte y logística","isPartOf":{"@id":"https://lodisna.com/#website"},"datePublished":"2022-02-02T12:24:08+00:00","dateModified":"2022-02-17T17:26:20+00:00","description":"En nuestra empresa de transporte y logística podrás hacer llegar tu carga a cualquier lugar nacional o internacional de la Unión Europea.","breadcrumb":{"@id":"https://lodisna.com/empresa-transporte-logistica/#breadcrumb"},"inLanguage":"es","potentialAction":[{"@type":"ReadAction","target":["https://lodisna.com/empresa-transporte-logistica/"]}]},{"@type":"BreadcrumbList","@id":"https://lodisna.com/empresa-transporte-logistica/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Portada","item":"https://lodisna.com/"},{"@type":"ListItem","position":2,"name":"Empresa de transporte y logística"}]},{"@type":"WebSite","@id":"https://lodisna.com/#website","url":"https://lodisna.com/","name":"LODISNA","description":"Otro sitio realizado con WordPress","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://lodisna.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"es"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.google.com' />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/lodisna.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.1"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css' href='https://lodisna.com/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='classic-theme-styles-css' href='https://lodisna.com/wp-includes/css/classic-themes.min.css?ver=1' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://lodisna.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.6.3' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-law-info-css' href='https://lodisna.com/wp-content/plugins/cookie-law-info/public/css/cookie-law-info-public.css?ver=2.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-law-info-gdpr-css' href='https://lodisna.com/wp-content/plugins/cookie-law-info/public/css/cookie-law-info-gdpr.css?ver=2.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='trp-language-switcher-style-css' href='https://lodisna.com/wp-content/plugins/translatepress-multilingual/assets/css/trp-language-switcher.css?ver=2.3.7' type='text/css' media='all' />
+<script type='text/javascript' src='https://lodisna.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://lodisna.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='cookie-law-info-js-extra'>
+/* <![CDATA[ */
+var Cli_Data = {"nn_cookie_ids":[],"cookielist":[],"non_necessary_cookies":[],"ccpaEnabled":"","ccpaRegionBased":"","ccpaBarEnabled":"","strictlyEnabled":["necessary","obligatoire"],"ccpaType":"gdpr","js_blocking":"1","custom_integration":"","triggerDomRefresh":"","secure_cookies":""};
+var cli_cookiebar_settings = {"animate_speed_hide":"500","animate_speed_show":"500","background":"#FFF","border":"#b1a6a6c2","border_on":"","button_1_button_colour":"#61a229","button_1_button_hover":"#4e8221","button_1_link_colour":"#fff","button_1_as_button":"1","button_1_new_win":"","button_2_button_colour":"#333","button_2_button_hover":"#292929","button_2_link_colour":"#444","button_2_as_button":"","button_2_hidebar":"","button_3_button_colour":"#dedfe0","button_3_button_hover":"#b2b2b3","button_3_link_colour":"#333333","button_3_as_button":"1","button_3_new_win":"","button_4_button_colour":"#dedfe0","button_4_button_hover":"#b2b2b3","button_4_link_colour":"#333333","button_4_as_button":"1","button_7_button_colour":"#61a229","button_7_button_hover":"#4e8221","button_7_link_colour":"#fff","button_7_as_button":"1","button_7_new_win":"","font_family":"inherit","header_fix":"","notify_animate_hide":"","notify_animate_show":"","notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"bottom","scroll_close":"","scroll_close_reload":"","accept_close_reload":"","reject_close_reload":"","showagain_tab":"","showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#333333","show_once_yn":"","show_once":"10000","logging_on":"","as_popup":"","popup_overlay":"1","bar_heading_text":"","cookie_bar_as":"banner","popup_showagain_position":"bottom-right","widget_position":"left"};
+var log_object = {"ajax_url":"https:\/\/lodisna.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://lodisna.com/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js?ver=2.1.2' id='cookie-law-info-js'></script>
+<link rel="https://api.w.org/" href="https://lodisna.com/wp-json/" /><link rel="alternate" type="application/json" href="https://lodisna.com/wp-json/wp/v2/pages/7" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://lodisna.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://lodisna.com/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 6.1.1" />
+<link rel='shortlink' href='https://lodisna.com/?p=7' />
+<link rel="alternate" type="application/json+oembed" href="https://lodisna.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flodisna.com%2Fempresa-transporte-logistica%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://lodisna.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flodisna.com%2Fempresa-transporte-logistica%2F&#038;format=xml" />
+<link rel="alternate" hreflang="es-ES" href="https://lodisna.com/empresa-transporte-logistica/"/>
+<link rel="alternate" hreflang="en-GB" href="https://lodisna.com/en/transport-logistics-company/"/>
+<link rel="alternate" hreflang="fr-FR" href="https://lodisna.com/fr/transport-logistique-entreprise/"/>
+<link rel="alternate" hreflang="es" href="https://lodisna.com/empresa-transporte-logistica/"/>
+<link rel="alternate" hreflang="en" href="https://lodisna.com/en/transport-logistics-company/"/>
+<link rel="alternate" hreflang="fr" href="https://lodisna.com/fr/transport-logistique-entreprise/"/>
+<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+<body class="page-template-default page page-id-7 translatepress-es_ES wpb-js-composer js-comp-ver-6.5.0 vc_responsive">
+<header>
+  <div id="logo"> <a href="https://lodisna.com" class="link-home">
+    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1441.9 213.9" style="enable-background:new 0 0 1441.9 213.9;" xml:space="preserve">
+      <g>
+        <path class="st0" d="M0,5.7h42.6v169.1h123.1v33.5H0V5.7z"/>
+        <path class="st0" d="M177.9,107C177.9,50,211.4,0.1,297,0.1C382.7,0.1,416.1,50,416.1,107S382.6,213.9,297,213.9
+		C211.3,213.9,177.9,164,177.9,107z M371.9,107c0-44.5-27.2-75.2-74.9-75.2s-74.9,30.6-74.9,75.2c0,44.5,27.2,75.2,74.9,75.2
+		S371.9,151.5,371.9,107z"/>
+        <path class="st0" d="M446.2,5.7h109.2c79.4,0,99,45.4,99,103.3c0,43.7-19.9,99.3-88.8,99.3H446.2V5.7z M488.8,176.5h59.9
+		c30.6,0,63.3-9.9,63.3-69.2c0-65.8-41.7-69.8-65.5-69.8h-57.6v139H488.8z"/>
+        <path class="st0" d="M850.4,0c31.2,0,93.6,5.7,99,64.4h-46c-1.4-15.6-15.6-32.6-51.1-32.6c-28.4,0-47.1,8.8-47.1,27.8
+		c0,47.7,150.9,2,150.9,88.5c0,52.2-54.2,65.8-97.3,65.8c-72.9,0-102.1-28.7-102.7-71.2h46c1.1,26.7,23.3,39.4,58.2,39.4
+		c25.8,0,49.9-7.7,49.9-29.8c0-50.2-149.2-6.5-149.2-89.6C761.1,17.6,801.1,0,850.4,0z"/>
+        <path class="st0" d="M982,5.7h48.8l120.6,152.1h0.6V5.7h40.9v202.6H1145L1023.6,56.2h-0.6v152.1h-40.8V5.7H982z"/>
+        <path class="st0" d="M1301.2,5.7h50.5l90.2,202.5h-47.4l-21.3-50.2h-95.3l-21,50.2h-46L1301.2,5.7z M1360.4,126.3l-34.6-85.4
+		l-35.1,85.4H1360.4z"/>
+        <path class="st0" d="M687.9,5.7h42.6v202.6h-42.6V5.7z"/>
+      </g>
+    </svg>
+    </a> </div>
+  <div id="movil-menu-boton"><span></span><span></span></div>
+  <div id="movil-menu">
+    <nav id="movil-nav">
+      <div class="arrow" id="arrow_mov1"></div>
+      <div class="arrow" id="arrow_mov2"></div>
+      <ul>
+        <li><a href="https://lodisna.com" class="link link-home">Home</a></li>
+        <li><a class="link link-empresa" href="/empresa-transporte-logistica/">Empresa</a></li>
+        <li><a class="link link-flota" href="/flota-camiones/">Flota</a></li>
+        <li class="menu-servicios">Servicios<span>▸</span>
+          <ul class="submenu">
+            <li><a class="link link-transporte" href="/transporte-por-carretera">Transporte por carretera</a></li>
+            <li><a class="link link-logistica" href="/logistica-integral">Logística integral</a></li>
+			<li><a class="link link-ultimamilla" href="/ultima-milla-sostenible">Última milla sostenible</a></li>
+          </ul>
+        </li>
+        <li><a class="link link-noticias" href="/noticias">Noticias</a></li>
+        <li class="menu-contacto">Contacto<span>▸</span>
+          <ul class="submenu">
+            <li><a class="link link-contacto" href="/contacto">Lodisna</a></li>
+            <li><a class="link link-contratacion" href="/contratacion">Contratación</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="trp_language_switcher_shortcode">
+<div class="trp-language-switcher trp-language-switcher-container" data-no-translation >
+    <div class="trp-ls-shortcode-current-language">
+        <a href="#" class="trp-ls-shortcode-disabled-language trp-ls-disabled-language" title="Spanish" onclick="event.preventDefault()">
+			 ES		</a>
+    </div>
+    <div class="trp-ls-shortcode-language">
+                <a href="#" class="trp-ls-shortcode-disabled-language trp-ls-disabled-language"  title="Spanish" onclick="event.preventDefault()">
+			 ES		</a>
+                    <a href="https://lodisna.com/en/transport-logistics-company/" title="English">
+             EN        </a>
+
+            <a href="https://lodisna.com/fr/transport-logistique-entreprise/" title="French">
+             FR        </a>
+
+        </div>
+    <script type="application/javascript">
+        // need to have the same with set from JS on both divs. Otherwise it can push stuff around in HTML
+        var trp_ls_shortcodes = document.querySelectorAll('.trp_language_switcher_shortcode .trp-language-switcher');
+        if ( trp_ls_shortcodes.length > 0) {
+            // get the last language switcher added
+            var trp_el = trp_ls_shortcodes[trp_ls_shortcodes.length - 1];
+
+            var trp_shortcode_language_item = trp_el.querySelector( '.trp-ls-shortcode-language' )
+            // set width
+            var trp_ls_shortcode_width                                               = trp_shortcode_language_item.offsetWidth + 16;
+            trp_shortcode_language_item.style.width                                  = trp_ls_shortcode_width + 'px';
+            trp_el.querySelector( '.trp-ls-shortcode-current-language' ).style.width = trp_ls_shortcode_width + 'px';
+
+            // We're putting this on display: none after we have its width.
+            trp_shortcode_language_item.style.display = 'none';
+        }
+    </script>
+</div>
+</div> <div id="tralog2">Transport & Logistics</div> </nav>
+  </div>
+  <nav id="desktop-nav">
+    <ul>
+      <li><a  class="link link-home" href="https://lodisna.com">Home</a></li>
+      <li><a class="link link-empresa" href="/empresa">Empresa</a></li>
+      <li><a class="link link-flota" href="/flota">Flota</a></li>
+      <li class="menu-servicios">Servicios
+        <ul class="submenu">
+          <li><a class="link link-transporte" href="/transporte-por-carretera">Transporte por carretera</a></li>
+          <li><a class="link link-logistica" href="/logistica-integral">Logística integral</a></li>
+		<li><a class="link link-ultimamilla" href="/ultima-milla-sostenible">Última milla sostenible</a></li>
+        </ul>
+      </li>
+      <li><a class="link link-noticias" href="/noticias">Noticias</a></li>
+      <li class="menu-contacto">Contacto
+        <ul class="submenu">
+          <li><a class="link link-contacto" href="/contacto">Lodisna</a></li>
+          <li><a class="link link-contratacion" href="/contratacion">Contratación</a></li>
+        </ul>
+      </li>
+      <div class="trp_language_switcher_shortcode">
+<div class="trp-language-switcher trp-language-switcher-container" data-no-translation >
+    <div class="trp-ls-shortcode-current-language">
+        <a href="#" class="trp-ls-shortcode-disabled-language trp-ls-disabled-language" title="Spanish" onclick="event.preventDefault()">
+			 ES		</a>
+    </div>
+    <div class="trp-ls-shortcode-language">
+                <a href="#" class="trp-ls-shortcode-disabled-language trp-ls-disabled-language"  title="Spanish" onclick="event.preventDefault()">
+			 ES		</a>
+                    <a href="https://lodisna.com/en/transport-logistics-company/" title="English">
+             EN        </a>
+
+            <a href="https://lodisna.com/fr/transport-logistique-entreprise/" title="French">
+             FR        </a>
+
+        </div>
+    <script type="application/javascript">
+        // need to have the same with set from JS on both divs. Otherwise it can push stuff around in HTML
+        var trp_ls_shortcodes = document.querySelectorAll('.trp_language_switcher_shortcode .trp-language-switcher');
+        if ( trp_ls_shortcodes.length > 0) {
+            // get the last language switcher added
+            var trp_el = trp_ls_shortcodes[trp_ls_shortcodes.length - 1];
+
+            var trp_shortcode_language_item = trp_el.querySelector( '.trp-ls-shortcode-language' )
+            // set width
+            var trp_ls_shortcode_width                                               = trp_shortcode_language_item.offsetWidth + 16;
+            trp_shortcode_language_item.style.width                                  = trp_ls_shortcode_width + 'px';
+            trp_el.querySelector( '.trp-ls-shortcode-current-language' ).style.width = trp_ls_shortcode_width + 'px';
+
+            // We're putting this on display: none after we have its width.
+            trp_shortcode_language_item.style.display = 'none';
+        }
+    </script>
+</div>
+</div>    </ul>
+  </nav>
+</header>
+<div class="scroller">
+  <section id="empresa">
+    <div id="kilometrosnum"></div>
+    <h1>Empresa de transporte de<br>
+      Mercancías y logística integral</h1>
+    <h2 class="title">Desde 2007 dedicados al transporte y
+      la logística. Ayudando a nuestros
+      clientes a mover sus mercancías con
+      total puntualidad.</h2>
+    <article>Lodisna (Logística y distribución de Navarra) nace en 2007 para dar respuesta a un mercado en constante evolución y desarrollo, realizando soluciones de transporte y logística específicas para cada cliente. En un entorno multinacional donde prima la excelencia, establecemos relaciones de confianza y beneficio recíproco con nuestros clientes. Esto nos ha permitido crecer de manera continuada en el tiempo, incluso en los momentos de crisis más duros. Ese es nuestro objetivo: seguir creciendo juntos. </article>
+  </section>
+  <section id="timeline">
+    <h3  class="tag">Timeline:</h3>
+    <div class="arrow"></div>
+    <div id="todos">
+      <div class="timeline-item">
+        <h3>2007</h3>
+        <br>
+        <p>▸ Constitución de la empresa.<br>
+          <br>
+          ▸ Apertura centro Teruel.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>2012</h3>
+        <br>
+        <p>▸ Obtención del sello de calidad ISO 9001 y 14001.<br>
+          <br>
+          ▸ Constitución de Lodisna France.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>2014</h3>
+        <br>
+        <p>▸ Obtención del sello de calidad OSHAS 18001 (Posteriormente ISO 45001) y 39001.<br>
+          <br>
+          ▸ Apertura del centro de Barcelona.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>2016</h3>
+        <br>
+        <p>▸ Compra de Lodisna por parte de ELCANO PARTNERS.<br>
+          <br>
+          ▸ Obtención de la certificación SQAS.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>2019</h3>
+        <br>
+        <p>▸ Apertura centro Soria.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>2022</h3>
+        <br>
+        <p>▸ Nuevo almacén Logístico Pamplona.</p>
+      </div>
+    </div>
+  </section>
+  <section id="actualidad">
+    <h3  class="tag">Actualidad</h3>
+    <div id="numeros">
+      <div id="numeros_in">
+        <div class="dato">
+          <div class="num">+ 350</div>
+          <div class="desc">Empleados en plantilla</div>
+        </div>
+        <div class="dato">
+          <div class="num">+ 3M</div>
+          <div class="desc">de Km recorridos todos los meses</div>
+        </div>
+        <div class="dato">
+          <div class="num">+ 3.000</div>
+          <div class="desc">Servicios de carga completa prestados de manera mensual</div>
+        </div>
+        <div class="dato">
+          <div class="num">+ 200</div>
+          <div class="desc">conjuntos completos en propiedad</div>
+        </div>
+        <div class="dato">
+          <div class="num">+ 4.000</div>
+          <div class="desc">m<sup>2</sup> en las nuevas instalaciones</div>
+        </div>
+        <div class="dato">
+          <div class="num">+ 10</div>
+          <div class="desc">idiomas de atención al cliente</div>
+        </div>
+        <div class="dato">
+          <div class="num">+ 30</div>
+          <div class="desc">paises en los que operamos</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="mark-num"></div>
+  <section id="equipo">
+    <h3>Equipo</h3>
+    <h2 class="title">Equipo joven y dinámico con
+      proyección internacional.</h2>
+    <article> Nuestro equipo humano destaca por su compromiso y versatilidad, con una mentalidad siempre orientada al cliente. Estamos muy orgullosos de nuestra plantilla multidisciplinar, joven, dinámica y resolutiva; con experiencia en toda la cadena de suministro y gestión de procesos.<br>
+      <br>
+      En el entorno multinacional en el que operamos, nuestro equipo plurilingüe es capaz de comunicarse con los diferentes <i>stakeholders</i> de manera fluida. Esto posibilita un coordinación e implicación constante, que se traduce en una mejora en la gestión de procesos y resultados.<br>
+      <br>
+      El papel de la mujer en Lodisna es clave en todos los estamentos de la empresa: puestos de dirección, departamento de tráfico, recursos humanos e incluso conductoras. Día a día trabajamos la corresponsabilidad entre todos y para todos. Para mantener actualizadas las habilidades de nuestra plantilla, apostamos por la formación continua, que nos permite fomentar el desarrollo profesional y humano.<br>
+      <br>
+      <a class="boton link-contratacion" href="/contratacion/"><span>▸</span>Trabaja con nosotros</a></article>
+    <div id="equipo-img"></div>
+  </section>
+  <section id="valores">
+    <div id="valores-inner">Compromiso - innovación - integridad - versatilidad - Compromiso - innovación - integridad - versatilidad</div>
+  </section>
+  <section id="eficiencia">
+    <h3>Digitalización</h3>
+    <h2 class="title">Maximizamos nuestra<br>
+      eficiencia haciendo uso de<br>
+      la tecnología más avanzada.</h2>
+    <div class="line-cont"></div>
+    <div class="eficiencia-contenido">
+      <div class="contenido-uno">
+        <article>Nuestro sistema de planificación de recursos empresariales Microsoft Dynamics permite la unificación y organización de todas las áreas. Este sistema nos permite seguir la trazabilidad de todos los procesos y, por tanto, mejorar la planificación y optimización de los recursos.<br>
+          <br>
+          La digitalización nos ha permitido avanzar y mejorar, para ofrecer un servicio más completo y personalizado. Estos avances han conseguido aumentar exponencialmente el valor añadido que somos capaces de aportar en las operaciones de nuestros clientes. </article>
+      </div>
+      <div class="contenido-dos">
+        <div class="info">
+          <h3>Gestión Digital</h3>
+          <article>Utilizamos Microsoft Dynamics Business e IB Logisctic, como herramienta de gestión integral de nuestra actividad.</article>
+        </div>
+        <div class="info">
+          <h3>Trazabilidad GPS</h3>
+          <article>A través de los últimos sistemas de seguimiento GPS, conocemos en cada momento donde se encuentra toda nuestra flota.</article>
+        </div>
+        <div class="info">
+          <h3>Departamento de tráfico</h3>
+          <article>24 / 7. Nuestro equipo de tráfico está siempre disponible para atender y gestionar las necesidades de nuestros conductores.</article>
+        </div>
+        <div class="info">
+          <h3>Torre control</h3>
+          <article>Nuestra torre de control permite una amplia conectividad con la posibilidad de integrar con las diferentes aplicaciones de nuestros clientes.</article>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="mark-efic"></div>
+  <section id="empresa-calidad">
+    <h3>Calidad</h3>
+    <h2 class="title">Avanzamos hacia<br>
+      una gestión de la<br>
+      calidad total. </h2>
+  </section>
+  <section id="empresa-calidad-cont">
+    <article>En nuestro plan estratégico tiene una enorme importancia la gestión de la calidad. Entendemos la calidad como uno de los pilares estratégicos que articulan toda nuestra actividad, para el cumplimiento de los requisitos específicos de los sectores más exigentes.<br>
+      <br>
+      <div class="upper"><b>Innovación y control</b> → <b>Control y desarrollo</b> → <b>Desarrollo y prueba</b> → <b>Implementación</b></div>
+      <br>
+      Trabajamos constantemente en la estandarización y nuestro <i>mindset</i> se basa en la mejora continua de todos los procesos. </article>
+    <div class="empresa-sellos">
+      <h3><span>GESTIÓN DE CALIDAD</span><br>
+        ISO 9001</h3>
+      <div class="descripcion">Los altos índices satisfacción de nuestros clientes avalan nuestra búsqueda de la excelencia. Un compromiso con la calidad que ha sido validado con la Certificación de Sistemas de Gestión de Calidad ISO 9001.</div>
+      <div class="sello"><img src="/wp-content/themes/lodisna/assets/sellos/9001.png"></div>
+    </div>
+    <div class="empresa-sellos">
+      <h3><span>Gestión Medioambiental</span><br>
+        ISO 14001</h3>
+      <div class="descripcion">Nos esforzamos por conseguir que nuestra huella ecológica sea mínima. Todos nuestros vehículos cuentan con motores avanzados <i>Euro 6 Step E</i> de última generación, que consumen y contaminan menos.</div>
+      <div class="sello"><img src="/wp-content/themes/lodisna/assets/sellos/14001.png"></div>
+    </div>
+    <div class="empresa-sellos">
+      <h3><span>Salud y seguridad en el trabajo</span><br>
+        ISO 45001</h3>
+      <div class="descripcion">Nuestro equipo humano es parte fundamental de nuestro capital. Apostamos día a día por mejorar las condiciones de seguridad y salud de nuestros trabajadores. Por ello, en el año 2021 hemos sido nuevamente certificados por la ISO 45001.</div>
+      <div class="sello"><img src="/wp-content/themes/lodisna/assets/sellos/45001.png"></div>
+    </div>
+    <div class="empresa-sellos">
+      <h3><span>Gestión de la Seguridad Vial</span><br>
+        ISO 39001</h3>
+      <div class="descripcion">Nuestro compromiso con la seguridad vial permite identificar los principales factores de riesgo con el tráfico, para posteriormente establecer propuestas de mejora que garanticen la seguridad de nuestros trabajadores en carretera.</div>
+      <div class="sello"><img src="/wp-content/themes/lodisna/assets/sellos/39001.png"></div>
+    </div>
+    <div class="empresa-sellos">
+      <h3><span>Safety & Quality Assessment for Sustainability</span><br>
+        SQAS</h3>
+      <div class="descripcion">Cumplimiento de requisitos de calidad, seguridad y protección del medio ambiente definidos por la industria química para sus proveedores de servicios logísticos.</div>
+      <div class="sello sqas"><img src="/wp-content/themes/lodisna/assets/sellos/sqas.png"></div>
+    </div>
+    <div id="aclaracion"><i>*Certificaciones para oficinas centrales.</i><br>
+      Para saber más puede consultar nuestra Política de Sistema Integral de Gestión. </div>
+  </section>
+  <section id="empresa-imagenes">
+    <div id="imagen2"></div>
+    <div id="flecha-imagenes-1"></div>
+    <div id="imagen3"></div>
+  </section>
+  <section id="sociedad">
+    <h3>Responsabilidad social</h3>
+    <h2 class="title">Ayudamos a<br>
+      construir una<br>
+      sociedad mejor.</h2>
+    <article>Nos sentimos responsables de contribuir a construir una sociedad más justa y equitativa. Por ello, hemos puesto en marcha diferentes planes de igualdad para que todos los empleados tengan las mismas oportunidades dentro de nuestra compañía.<br>
+      <br>
+      Estamos orgullosos de ser socios de la Cámara Navarra de comercio e industria, y de la Asociación del Transporte Internacional por Carretera (ASTIC). De la misma manera, llevamos años ayudando a WWF, a reforestar hectáreas de bosque que contribuyen a frenar la degradación ambiental y construir un futuro en el que el ser humano viva en armonía con la naturaleza. <br>
+      <br>
+      Otra prueba de nuestro compromiso social, es el convenio de colaboración con el grupo Gureak que sirve para impulsar proyectos que facilitan la inclusión de la diversidad, incorporando al mundo laboral a personas con discapacidad. <br>
+      <br>
+      También colaboramos con el centro navarro de formación profesional Cuatro Vientos. El acuerdo hace posible la inclusión de personas en la sociedad y en la empresa, a través del método de educación dual <i>learning by doing</i>.</article>
+    <img class="camara-comercio" src="/wp-content/themes/lodisna/assets/img/camara.jpeg"><img class="astic" src="/wp-content/themes/lodisna/assets/img/astic.png"> </section>
+  <section id="empresa-imagenes-2">
+    <div id="imagen4"></div>
+    <div id="imagen5"></div>
+  </section>
+  <section id="medio-ambiente">
+    <h3>Medio ambiente</h3>
+    <h2 class="title">Nos preocupa el<br>
+      futuro de nuestro<br>
+      planeta.</h2>
+	  <img class="volvo" src="/wp-content/themes/lodisna/assets/img/volvo.png">
+	  <img class="renault" src="/wp-content/themes/lodisna/assets/img/renault.png">
+	   <img class="carbono" src="/wp-content/themes/lodisna/assets/img/2021_C.jpg"> 
+    <article>Somos conscientes del impacto medioambiental que conlleva el desarrollo de algunas actividades esenciales como el transporte. Mientras trabajamos de manera proactiva en el desarrollo e investigación de nuevos métodos de transporte sostenible, intentamos hacer todo lo que está en nuestra mano para disminuir la contaminación propia de nuestra actividad. <br>
+      <br>
+      Todas nuestras tractoras están equipadas con motores <i>Euro 6 Step E</i>, los más eficientes del mercado, que renovamos cada 3 años para reducir la emisión de gases de efecto invernadero. Durante 2021 hemos renovado un total de 60 tractoras. <br>
+      <br>
+      Trabajamos con Volvo y Renault, entre otras cosas, porque utilizan materiales reciclados para la fabricación de sus vehículos. En el caso concreto de Volvo hasta un 25%. De la misma manera, Michelín nos proporciona sus neumáticos Energy, que reducen el consumo y la contaminación. <br>
+      <br>
+      Nuestro departamento de tráfico trabaja constantemente en la optimización de las rutas y la reducción de los kilómetros de vacío. <br>
+      <br>
+      Fruto de todo lo anteriormente mencionado, hemos conseguido disminuir un 26% el consumo de gasoil de toda nuestra flota en los últimos cuatro años, reduciendo de manera considerable la huella medioambiental de nuestra actividad. <br>
+      <br>
+      Aunque sabemos que aún queda mucho camino por recorrer, nuestro compromiso con la sostenibilidad es firme. Seguiremos esforzándonos de cara al futuro para reducir nuestras emisiones, y cumplimentar los objetivos medioambientales más estrictos del sector y del conjunto de la sociedad. En el año 2022, Lodisna se ha inscrito en Registro de huella de carbono, compensación y proyectos de absorción de dióxido de carbono por la Oficina Española de Cambio Climático (OECC). Esta evolución constante se ve reflejada en el objetivo 2040, punto de inflexión que hemos marcado para la creación de un plan de sostenibilidad propio.
+	  </article>
+  </section>
+  <section class="backtotop">
+	<div class="back-fondo">Transport & Logistic & Transport</div>
+	<a href="/" class="boton link-home back-home">Back home</a>
+	<div class="backtop">Back to top</div>
+</section>
+  <section class="footer">
+        <div class="arrow-footer-1"></div>
+        <div class="arrow-footer-2"></div>
+        <div class="pamplona">PAMPLONA<br>
+          España<br>
+          <br>
+          <a href="tel:+34948853453">[+34] 948 85 34 53</a><br>
+          <br>
+           <a href="mailto:infosp@lodisna.com">infosp@lodisna.com</a><br>
+          <br>
+          <a href="https://goo.gl/maps/V8XrNSYY4CicCMuF7" target="_blank">Ciudad del Transporte de Pamplona.<br>
+          Plaza Europa 11, oficina 3.<br>
+          31119 Imarcoain (Navarra)</a></div>
+        <div class="francia">MOUGUERRE<br>
+          Francia<br>
+          <br>
+			<a href="tel:+33559932456">[+33] 5 59 93 24 56</a><br>
+          <br>
+			<a href="mailto:infofr@lodisna.com">infofr@lodisna.com</a><br>
+          <br>
+          <a href="https://goo.gl/maps/dHHfiaexPDi67ihT8" target="_blank">12 Rue Alegera BP 80052<br>
+          Centre Européen de Fret<br>
+			  64990 Mouguerre</a></div>
+        <div class="lodisna">© 2023 LODISNA</div>
+        <nav class="submenu">
+          <ul>
+            <li><span>▸</span><a href="/certificaciones/">CERTIFICACIONES</a></li>
+            <li><span>▸</span><a href="/aviso-legal/">AVISO LEGAL</a></li>
+            <li><span>▸</span><a href="/proteccion-de-datos/">PROTECCIÓN DE DATOS</a></li>
+            <li><span>▸</span><a href="/politica-sig/">POLÍTICA SIG</a></li>
+			  <li><span>▸</span><a href="/politica-privacidad/">COOKIES</a></li>
+			<li><span>▸</span><a href="/compliance/">COMPLIANCE</a></li>
+			<li><span>▸</span><a href="/video-corporativo/">VIDEO CORPORATIVO</a></li>
+          </ul>
+        </nav>
+		<div class="footer-copy">Copyright. All rights reserved.</div>
+        <div class="silencio">Diseño realizado en <a target="_blank" href="https://silencio.es">silencio</a>.</div>
+		<div class="linkedin"><a target="_blank" href="https://es.linkedin.com/company/lodisna"><span>▸</span>LinkedIn</a></div>
+      </section>
+</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js'></script> 
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothState.js/0.5.6/jquery.smoothState.min.js"></script>
+<script  src="/wp-content/themes/lodisna/js/ScrollTrigger.min.js"></script> 
+<script  src="/wp-content/themes/lodisna/js/DrawSVGPlugin.min.js"></script> 
+<script src='https://unpkg.com/smooth-scrollbar@latest/dist/smooth-scrollbar.js'></script> 
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> 
+<script src='/wp-content/themes/lodisna/js/SplitText.js'></script> 
+<script src="https://player.vimeo.com/api/player.js"></script>
+<script src="/wp-content/themes/lodisna/js/page-scripts/generalscripts.js"></script>
+<script  src="/wp-content/themes/lodisna/js/page-scripts/empresacripts.js"></script>
