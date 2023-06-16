@@ -1,0 +1,1585 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js no-svg">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+   <meta charset="UTF-8">
+   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+   <link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <title>SciensLogistics</title>
+   <meta name='robots' content='max-image-preview:large' />
+   <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+   <link rel='stylesheet' id='wp-block-library-css' href='assets/css/style.min6a4d.css?ver=6.1.1' type='text/css'
+      media='all' />
+   <style id='wp-block-library-theme-inline-css' type='text/css'>
+      .wp-block-audio figcaption {
+         color: #555;
+         font-size: 13px;
+         text-align: center
+      }
+
+      .is-dark-theme .wp-block-audio figcaption {
+         color: hsla(0, 0%, 100%, .65)
+      }
+
+      .wp-block-audio {
+         margin: 0 0 1em
+      }
+
+      .wp-block-code {
+         border: 1px solid #ccc;
+         border-radius: 4px;
+         font-family: Menlo, Consolas, monaco, monospace;
+         padding: .8em 1em
+      }
+
+      .wp-block-embed figcaption {
+         color: #555;
+         font-size: 13px;
+         text-align: center
+      }
+
+      .is-dark-theme .wp-block-embed figcaption {
+         color: hsla(0, 0%, 100%, .65)
+      }
+
+      .wp-block-embed {
+         margin: 0 0 1em
+      }
+
+      .blocks-gallery-caption {
+         color: #555;
+         font-size: 13px;
+         text-align: center
+      }
+
+      .is-dark-theme .blocks-gallery-caption {
+         color: hsla(0, 0%, 100%, .65)
+      }
+
+      .wp-block-image figcaption {
+         color: #555;
+         font-size: 13px;
+         text-align: center
+      }
+
+      .is-dark-theme .wp-block-image figcaption {
+         color: hsla(0, 0%, 100%, .65)
+      }
+
+      .wp-block-image {
+         margin: 0 0 1em
+      }
+
+      .wp-block-pullquote {
+         border-top: 4px solid;
+         border-bottom: 4px solid;
+         margin-bottom: 1.75em;
+         color: currentColor
+      }
+
+      .wp-block-pullquote__citation,
+      .wp-block-pullquote cite,
+      .wp-block-pullquote footer {
+         color: currentColor;
+         text-transform: uppercase;
+         font-size: .8125em;
+         font-style: normal
+      }
+
+      .wp-block-quote {
+         border-left: .25em solid;
+         margin: 0 0 1.75em;
+         padding-left: 1em
+      }
+
+      .wp-block-quote cite,
+      .wp-block-quote footer {
+         color: currentColor;
+         font-size: .8125em;
+         position: relative;
+         font-style: normal
+      }
+
+      .wp-block-quote.has-text-align-right {
+         border-left: none;
+         border-right: .25em solid;
+         padding-left: 0;
+         padding-right: 1em
+      }
+
+      .wp-block-quote.has-text-align-center {
+         border: none;
+         padding-left: 0
+      }
+
+      .wp-block-quote.is-large,
+      .wp-block-quote.is-style-large,
+      .wp-block-quote.is-style-plain {
+         border: none
+      }
+
+      .wp-block-search .wp-block-search__label {
+         font-weight: 700
+      }
+
+      .wp-block-search__button {
+         border: 1px solid #ccc;
+         padding: .375em .625em
+      }
+
+      :where(.wp-block-group.has-background) {
+         padding: 1.25em 2.375em
+      }
+
+      .wp-block-separator.has-css-opacity {
+         opacity: .4
+      }
+
+      .wp-block-separator {
+         border: none;
+         border-bottom: 2px solid;
+         margin-left: auto;
+         margin-right: auto
+      }
+
+      .wp-block-separator.has-alpha-channel-opacity {
+         opacity: 1
+      }
+
+      .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+         width: 100px
+      }
+
+      .wp-block-separator.has-background:not(.is-style-dots) {
+         border-bottom: none;
+         height: 1px
+      }
+
+      .wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots) {
+         height: 2px
+      }
+
+      .wp-block-table {
+         margin: "0 0 1em 0"
+      }
+
+      .wp-block-table thead {
+         border-bottom: 3px solid
+      }
+
+      .wp-block-table tfoot {
+         border-top: 3px solid
+      }
+
+      .wp-block-table td,
+      .wp-block-table th {
+         word-break: normal
+      }
+
+      .wp-block-table figcaption {
+         color: #555;
+         font-size: 13px;
+         text-align: center
+      }
+
+      .is-dark-theme .wp-block-table figcaption {
+         color: hsla(0, 0%, 100%, .65)
+      }
+
+      .wp-block-video figcaption {
+         color: #555;
+         font-size: 13px;
+         text-align: center
+      }
+
+      .is-dark-theme .wp-block-video figcaption {
+         color: hsla(0, 0%, 100%, .65)
+      }
+
+      .wp-block-video {
+         margin: 0 0 1em
+      }
+
+      .wp-block-template-part.has-background {
+         padding: 1.25em 2.375em;
+         margin-top: 0;
+         margin-bottom: 0
+      }
+   </style>
+   <link rel='stylesheet' id='wc-blocks-vendors-style-css'
+      href='assets/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style8caf.css?ver=8.7.5'
+      type='text/css' media='all' />
+   <link rel='stylesheet' id='wc-blocks-style-css'
+      href='assets/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style8caf.css?ver=8.7.5'
+      type='text/css' media='all' />
+   <link rel='stylesheet' id='classic-theme-styles-css' href='assets/css/classic-themes.min68b3.css?ver=1'
+      type='text/css' media='all' />
+   <style id='global-styles-inline-css' type='text/css'>
+      body {
+         --wp--preset--color--black: #000000;
+         --wp--preset--color--cyan-bluish-gray: #abb8c3;
+         --wp--preset--color--white: #ffffff;
+         --wp--preset--color--pale-pink: #f78da7;
+         --wp--preset--color--vivid-red: #cf2e2e;
+         --wp--preset--color--luminous-vivid-orange: #ff6900;
+         --wp--preset--color--luminous-vivid-amber: #fcb900;
+         --wp--preset--color--light-green-cyan: #7bdcb5;
+         --wp--preset--color--vivid-green-cyan: #00d084;
+         --wp--preset--color--pale-cyan-blue: #8ed1fc;
+         --wp--preset--color--vivid-cyan-blue: #0693e3;
+         --wp--preset--color--vivid-purple: #9b51e0;
+         --wp--preset--color--strong-yellow: #f7bd00;
+         --wp--preset--color--strong-white: #fff;
+         --wp--preset--color--light-black: #242424;
+         --wp--preset--color--very-light-gray: #797979;
+         --wp--preset--color--very-dark-black: #000000;
+         --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+         --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+         --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+         --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+         --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+         --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+         --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+         --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+         --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+         --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+         --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+         --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+         --wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');
+         --wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');
+         --wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');
+         --wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');
+         --wp--preset--duotone--midnight: url('#wp-duotone-midnight');
+         --wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');
+         --wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');
+         --wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');
+         --wp--preset--font-size--small: 10px;
+         --wp--preset--font-size--medium: 20px;
+         --wp--preset--font-size--large: 24px;
+         --wp--preset--font-size--x-large: 42px;
+         --wp--preset--font-size--normal: 15px;
+         --wp--preset--font-size--huge: 36px;
+         --wp--preset--spacing--20: 0.44rem;
+         --wp--preset--spacing--30: 0.67rem;
+         --wp--preset--spacing--40: 1rem;
+         --wp--preset--spacing--50: 1.5rem;
+         --wp--preset--spacing--60: 2.25rem;
+         --wp--preset--spacing--70: 3.38rem;
+         --wp--preset--spacing--80: 5.06rem;
+      }
+
+      :where(.is-layout-flex) {
+         gap: 0.5em;
+      }
+
+      body .is-layout-flow>.alignleft {
+         float: left;
+         margin-inline-start: 0;
+         margin-inline-end: 2em;
+      }
+
+      body .is-layout-flow>.alignright {
+         float: right;
+         margin-inline-start: 2em;
+         margin-inline-end: 0;
+      }
+
+      body .is-layout-flow>.aligncenter {
+         margin-left: auto !important;
+         margin-right: auto !important;
+      }
+
+      body .is-layout-constrained>.alignleft {
+         float: left;
+         margin-inline-start: 0;
+         margin-inline-end: 2em;
+      }
+
+      body .is-layout-constrained>.alignright {
+         float: right;
+         margin-inline-start: 2em;
+         margin-inline-end: 0;
+      }
+
+      body .is-layout-constrained>.aligncenter {
+         margin-left: auto !important;
+         margin-right: auto !important;
+      }
+
+      body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+         max-width: var(--wp--style--global--content-size);
+         margin-left: auto !important;
+         margin-right: auto !important;
+      }
+
+      body .is-layout-constrained>.alignwide {
+         max-width: var(--wp--style--global--wide-size);
+      }
+
+      body .is-layout-flex {
+         display: flex;
+      }
+
+      body .is-layout-flex {
+         flex-wrap: wrap;
+         align-items: center;
+      }
+
+      body .is-layout-flex>* {
+         margin: 0;
+      }
+
+      :where(.wp-block-columns.is-layout-flex) {
+         gap: 2em;
+      }
+
+      .has-black-color {
+         color: var(--wp--preset--color--black) !important;
+      }
+
+      .has-cyan-bluish-gray-color {
+         color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+
+      .has-white-color {
+         color: var(--wp--preset--color--white) !important;
+      }
+
+      .has-pale-pink-color {
+         color: var(--wp--preset--color--pale-pink) !important;
+      }
+
+      .has-vivid-red-color {
+         color: var(--wp--preset--color--vivid-red) !important;
+      }
+
+      .has-luminous-vivid-orange-color {
+         color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+
+      .has-luminous-vivid-amber-color {
+         color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+
+      .has-light-green-cyan-color {
+         color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+
+      .has-vivid-green-cyan-color {
+         color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+
+      .has-pale-cyan-blue-color {
+         color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+
+      .has-vivid-cyan-blue-color {
+         color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+
+      .has-vivid-purple-color {
+         color: var(--wp--preset--color--vivid-purple) !important;
+      }
+
+      .has-black-background-color {
+         background-color: var(--wp--preset--color--black) !important;
+      }
+
+      .has-cyan-bluish-gray-background-color {
+         background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+
+      .has-white-background-color {
+         background-color: var(--wp--preset--color--white) !important;
+      }
+
+      .has-pale-pink-background-color {
+         background-color: var(--wp--preset--color--pale-pink) !important;
+      }
+
+      .has-vivid-red-background-color {
+         background-color: var(--wp--preset--color--vivid-red) !important;
+      }
+
+      .has-luminous-vivid-orange-background-color {
+         background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+
+      .has-luminous-vivid-amber-background-color {
+         background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+
+      .has-light-green-cyan-background-color {
+         background-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+
+      .has-vivid-green-cyan-background-color {
+         background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+
+      .has-pale-cyan-blue-background-color {
+         background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+
+      .has-vivid-cyan-blue-background-color {
+         background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+
+      .has-vivid-purple-background-color {
+         background-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+
+      .has-black-border-color {
+         border-color: var(--wp--preset--color--black) !important;
+      }
+
+      .has-cyan-bluish-gray-border-color {
+         border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+
+      .has-white-border-color {
+         border-color: var(--wp--preset--color--white) !important;
+      }
+
+      .has-pale-pink-border-color {
+         border-color: var(--wp--preset--color--pale-pink) !important;
+      }
+
+      .has-vivid-red-border-color {
+         border-color: var(--wp--preset--color--vivid-red) !important;
+      }
+
+      .has-luminous-vivid-orange-border-color {
+         border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+
+      .has-luminous-vivid-amber-border-color {
+         border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+
+      .has-light-green-cyan-border-color {
+         border-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+
+      .has-vivid-green-cyan-border-color {
+         border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+
+      .has-pale-cyan-blue-border-color {
+         border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+
+      .has-vivid-cyan-blue-border-color {
+         border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+
+      .has-vivid-purple-border-color {
+         border-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+
+      .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+         background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+      }
+
+      .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+         background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+      }
+
+      .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+         background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+      }
+
+      .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+         background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+      }
+
+      .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+         background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+      }
+
+      .has-cool-to-warm-spectrum-gradient-background {
+         background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+      }
+
+      .has-blush-light-purple-gradient-background {
+         background: var(--wp--preset--gradient--blush-light-purple) !important;
+      }
+
+      .has-blush-bordeaux-gradient-background {
+         background: var(--wp--preset--gradient--blush-bordeaux) !important;
+      }
+
+      .has-luminous-dusk-gradient-background {
+         background: var(--wp--preset--gradient--luminous-dusk) !important;
+      }
+
+      .has-pale-ocean-gradient-background {
+         background: var(--wp--preset--gradient--pale-ocean) !important;
+      }
+
+      .has-electric-grass-gradient-background {
+         background: var(--wp--preset--gradient--electric-grass) !important;
+      }
+
+      .has-midnight-gradient-background {
+         background: var(--wp--preset--gradient--midnight) !important;
+      }
+
+      .has-small-font-size {
+         font-size: var(--wp--preset--font-size--small) !important;
+      }
+
+      .has-medium-font-size {
+         font-size: var(--wp--preset--font-size--medium) !important;
+      }
+
+      .has-large-font-size {
+         font-size: var(--wp--preset--font-size--large) !important;
+      }
+
+      .has-x-large-font-size {
+         font-size: var(--wp--preset--font-size--x-large) !important;
+      }
+
+      .wp-block-navigation a:where(:not(.wp-element-button)) {
+         color: inherit;
+      }
+
+      :where(.wp-block-columns.is-layout-flex) {
+         gap: 2em;
+      }
+
+      .wp-block-pullquote {
+         font-size: 1.5em;
+         line-height: 1.6;
+      }
+   </style>
+   <link rel='stylesheet' id='woocommerce-layout-css'
+      href='assets/plugins/woocommerce/assets/css/woocommerce-layout9d27.css?ver=7.1.0' type='text/css' media='all' />
+   <link rel='stylesheet' id='woocommerce-smallscreen-css'
+      href='assets/plugins/woocommerce/assets/css/woocommerce-smallscreen9d27.css?ver=7.1.0' type='text/css'
+      media='only screen and (max-width: 768px)' />
+   <link rel='stylesheet' id='woocommerce-general-css'
+      href='assets/plugins/woocommerce/assets/css/woocommerce9d27.css?ver=7.1.0' type='text/css' media='all' />
+   <style id='woocommerce-inline-inline-css' type='text/css'>
+      .woocommerce form .form-row .required {
+         visibility: visible;
+      }
+   </style>
+   <link rel='stylesheet' id='contact-form-7-css'
+      href='assets/plugins/contact-form-7/includes/css/styles77e1.css?ver=5.6.4' type='text/css' media='all' />
+   <link rel='stylesheet' id='hfe-style-css'
+      href='assets/plugins/header-footer-elementor/assets/css/header-footer-elementor1f62.css?ver=1.6.13'
+      type='text/css' media='all' />
+   <link rel='stylesheet' id='elementor-icons-css'
+      href='assets/plugins/elementor/assets/lib/eicons/css/elementor-icons.min91ce.css?ver=5.16.0' type='text/css'
+      media='all' />
+   <link rel='stylesheet' id='elementor-frontend-css'
+      href='assets/plugins/elementor/assets/css/frontend-lite.min7e2e.css?ver=3.8.1' type='text/css' media='all' />
+   <link rel='stylesheet' id='elementor-post-5-css' href='assets/css/post-544b1.css?ver=1642400728' type='text/css'
+      media='all' />
+   <link rel='stylesheet' id='elementor-global-css' href='assets/css/global9723.css?ver=1642400729' type='text/css'
+      media='all' />
+   <link rel='stylesheet' id='fontawesome-all-css' href='assets/css/fontawesome-all6a4d.css?ver=6.1.1' type='text/css'
+      media='all' />
+   <link rel='stylesheet' id='flaticon-css' href='assets/css/flaticon6a4d.css?ver=6.1.1' type='text/css' media='all' />
+   <link rel='stylesheet' id='flaticon-home-v7-css' href='assets/css/icon-v7/flaticon-v76a4d.css?ver=6.1.1'
+      type='text/css' media='all' />
+   <link rel='stylesheet' id='flaticon-v2.css-css' href='assets/css/flaticon-v26a4d.css?ver=6.1.1' type='text/css'
+      media='all' />
+   <link rel='stylesheet' id='jquery-ui-css' href='assets/css/jquery-ui6a4d.css?ver=6.1.1' type='text/css'
+      media='all' />
+   <link rel='stylesheet' id='animate-css' href='assets/css/animate6a4d.css?ver=6.1.1' type='text/css' media='all' />
+   <link rel='stylesheet' id='nice-select-css' href='assets/css/nice-select6a4d.css?ver=6.1.1' type='text/css'
+      media='all' />
+   <link rel='stylesheet' id='video-css' href='assets/css/video.min6a4d.css?ver=6.1.1' type='text/css' media='all' />
+   <link rel='stylesheet' id='animated-slider-css' href='assets/css/animated-slider6a4d.css?ver=6.1.1' type='text/css'
+      media='all' />
+   <link rel='stylesheet' id='jquery-mcustomscrollbar-css'
+      href='assets/css/jquery.mCustomScrollbar.min6a4d.css?ver=6.1.1' type='text/css' media='all' />
+   <link rel='stylesheet' id='slick-css' href='assets/css/slick6a4d.css?ver=6.1.1' type='text/css' media='all' />
+   <link rel='stylesheet' id='slick-theme-css' href='assets/css/slick-theme6a4d.css?ver=6.1.1' type='text/css'
+      media='all' />
+   <link rel='stylesheet' id='animate-team-css' href='assets/css/animate-team6a4d.css?ver=6.1.1' type='text/css'
+      media='all' />
+   <link rel='stylesheet' id='fastrans-woocommerce-css' href='assets/woocommerce/woocommerce6a4d.css?ver=6.1.1'
+      type='text/css' media='all' />
+   <link rel='stylesheet' id='fastrans-main-css' href='assets/style6a4d.css?ver=6.1.1' type='text/css' media='all' />
+   <link rel='stylesheet' id='bootstrap-css' href='assets/css/bootstrap.min6a4d.css?ver=6.1.1' type='text/css'
+      media='all' />
+   <link rel='stylesheet' id='owl-carousel-css' href='assets/css/owl.carousel.min6a4d.css?ver=6.1.1' type='text/css'
+      media='all' />
+   <link rel='stylesheet' id='fastrans-main-style-css' href='assets/css/style6a4d.css?ver=6.1.1' type='text/css'
+      media='all' />
+   <style id='fastrans-main-style-inline-css' type='text/css'>
+      :root {
+         --ft-main-theme: #008eff;
+         --ft-second-theme: #fa4318;
+      }
+   </style>
+   <link rel='stylesheet' id='fastrans-updated-style-css' href='assets/css/updated-style6a4d.css?ver=6.1.1'
+      type='text/css' media='all' />
+   <link rel='stylesheet' id='fastrans-custom-css' href='assets/css/custom6a4d.css?ver=6.1.1' type='text/css'
+      media='all' />
+   <link rel='stylesheet' id='fastrans-responsive-css' href='assets/css/responsive6a4d.css?ver=6.1.1' type='text/css'
+      media='all' />
+   <link rel='stylesheet' id='fastrans-transport-css' href='assets/css/transport6a4d.css?ver=6.1.1' type='text/css'
+      media='all' />
+   <link rel='stylesheet' id='home_v7-css' href='assets/css/home_v76a4d.css?ver=6.1.1' type='text/css' media='all' />
+   <link rel='stylesheet' id='transport-logistric-css' href='assets/css/transport-logistric6a4d.css?ver=6.1.1'
+      type='text/css' media='all' />
+   <link rel='stylesheet' id='transport-responsive-css' href='assets/css/transport-responsive6a4d.css?ver=6.1.1'
+      type='text/css' media='all' />
+   <link rel='stylesheet' id='home_v10-css' href='assets/css/home_v106a4d.css?ver=6.1.1' type='text/css' media='all' />
+   <link rel='stylesheet' id='home_v11-css' href='assets/css/home_v116a4d.css?ver=6.1.1' type='text/css' media='all' />
+   <link rel='stylesheet' id='fastrans-theme-fonts-css'
+      href='https://fonts.googleapis.com/css?family=Poppins%3A100%2C200%2C300%2C400%2C600%2C500%2C700%7CRoboto%3A100%2C300%2C400%2C500%2C700&amp;subset=latin%2Clatin-ext'
+      type='text/css' media='all' />
+   <link rel='stylesheet' id='google-fonts-1-css'
+      href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=6.1.1'
+      type='text/css' media='all' />
+   <script type='text/javascript' src='assets/js/jquery.mina7a0.js?ver=3.6.1' id='jquery-core-js'></script>
+   <script type='text/javascript' src='assets/js/jquery-migrate.mind617.js?ver=3.3.2' id='jquery-migrate-js'></script>
+   <script type='text/javascript' src='assets/js/logistics68b3.js?ver=1' id='fastrans-logistics-script-js'></script>
+   <script type='text/javascript' src='assets/js/cal68b3.js?ver=1' id='cost-calculate-js'></script>
+   <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.min.css'>
+
+   <style>
+      .ftn-header-content-wrap .brand-logo,
+      .ftn-header-content-area:before,
+      .ftn-header-main-menu-cta-btn .header-cta-btn a {
+         background-color: #d97500;
+      }
+
+      .ftn-header-main-menu-cta-btn .header-cta-btn a:hover {
+         background-color: #ba6502;
+      }
+
+      .footer_style_nine .ft-footer-widget .widget-title {
+         color: #FFFFFF;
+      }
+
+      .footer_style_nine .ft-footer-widget .ft-footer-logo-widget p,
+      .footer_style_nine .ft-footer-widget .ft-footer-newslatter-widget p,
+      .footer_style_nine .ft-footer-widget .ft-footer-info-widget a,
+      .footer_style_nine .ft-footer-widget .ft-footer-info-widget .office-open-hour p {
+         color: #9d9d9d;
+      }
+
+      .footer_style_nine .ftn-footer-copyright {
+         color: #FFFFFF;
+      }
+
+      .footer_style_nine .ft-footer-widget .ft-footer-logo-widget .footer-logo-btn,
+      .footer_style_nine .ft-footer-widget .ft-footer-newslatter-widget button,
+      .footer_style_nine .ft-footer-widget .widget-title:before {
+         background-color: #d97500;
+      }
+
+      .footer_style_nine .ft-footer-widget .ft-footer-info-widget i {
+         color: #d97500;
+      }
+
+      .footer_style_nine .ft-footer-widget .ft-footer-logo-widget .footer-logo-btn:hover {
+         /*background-color: ;*/
+      }
+
+      .footer_style_eleven .ft-footer-widget .widget-title {
+         color: #FFFFFF;
+      }
+
+      .footer_style_eleven .ft-footer-widget .ft-footer-logo-widget p,
+      .footer_style_eleven .ft-footer-widget .ft-footer-newslatter-widget p,
+      .footer_style_eleven .ft-footer-widget .ft-footer-info-widget a,
+      .footer_style_eleven .ft-footer-widget .ft-footer-info-widget .office-open-hour p {
+         color: #9d9d9d;
+      }
+
+      .footer_style_eleven .ftn-footer-copyright {
+         color: #FFFFFF;
+      }
+
+      .footer_style_eleven .ft-footer-widget .ft-footer-logo-widget .footer-logo-btn,
+      .footer_style_eleven .ft-footer-widget .ft-footer-newslatter-widget button,
+      .footer_style_eleven .ft-footer-widget .widget-title:before {
+         background-color: #d9262a;
+      }
+
+      .footer_style_eleven .ft-footer-widget .ft-footer-info-widget i {
+         color: #d9262a;
+      }
+
+      .footer_style_eleven .ft-footer-widget .ft-footer-logo-widget .footer-logo-btn:hover {
+         /*background-color: ;*/
+      }
+   </style>
+   <script>function setREVStartSize(e) {
+         //window.requestAnimationFrame(function() {
+         window.RSIW = window.RSIW === undefined ? window.innerWidth : window.RSIW;
+         window.RSIH = window.RSIH === undefined ? window.innerHeight : window.RSIH;
+         try {
+            var pw = document.getElementById(e.c).parentNode.offsetWidth,
+               newh;
+            pw = pw === 0 || isNaN(pw) || (e.l == "fullwidth" || e.layout == "fullwidth") ? window.RSIW : pw;
+            e.tabw = e.tabw === undefined ? 0 : parseInt(e.tabw);
+            e.thumbw = e.thumbw === undefined ? 0 : parseInt(e.thumbw);
+            e.tabh = e.tabh === undefined ? 0 : parseInt(e.tabh);
+            e.thumbh = e.thumbh === undefined ? 0 : parseInt(e.thumbh);
+            e.tabhide = e.tabhide === undefined ? 0 : parseInt(e.tabhide);
+            e.thumbhide = e.thumbhide === undefined ? 0 : parseInt(e.thumbhide);
+            e.mh = e.mh === undefined || e.mh == "" || e.mh === "auto" ? 0 : parseInt(e.mh, 0);
+            if (e.layout === "fullscreen" || e.l === "fullscreen")
+               newh = Math.max(e.mh, window.RSIH);
+            else {
+               e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+               for (var i in e.rl) if (e.gw[i] === undefined || e.gw[i] === 0) e.gw[i] = e.gw[i - 1];
+               e.gh = e.el === undefined || e.el === "" || (Array.isArray(e.el) && e.el.length == 0) ? e.gh : e.el;
+               e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+               for (var i in e.rl) if (e.gh[i] === undefined || e.gh[i] === 0) e.gh[i] = e.gh[i - 1];
+
+               var nl = new Array(e.rl.length),
+                  ix = 0,
+                  sl;
+               e.tabw = e.tabhide >= pw ? 0 : e.tabw;
+               e.thumbw = e.thumbhide >= pw ? 0 : e.thumbw;
+               e.tabh = e.tabhide >= pw ? 0 : e.tabh;
+               e.thumbh = e.thumbhide >= pw ? 0 : e.thumbh;
+               for (var i in e.rl) nl[i] = e.rl[i] < window.RSIW ? 0 : e.rl[i];
+               sl = nl[0];
+               for (var i in nl) if (sl > nl[i] && nl[i] > 0) { sl = nl[i]; ix = i; }
+               var m = pw > (e.gw[ix] + e.tabw + e.thumbw) ? 1 : (pw - (e.tabw + e.thumbw)) / (e.gw[ix]);
+               newh = (e.gh[ix] * m) + (e.tabh + e.thumbh);
+            }
+            var el = document.getElementById(e.c);
+            if (el !== null && el) el.style.height = newh + "px";
+            el = document.getElementById(e.c + "_wrapper");
+            if (el !== null && el) {
+               el.style.height = newh + "px";
+               el.style.display = "block";
+            }
+         } catch (e) {
+            console.log("Failure at Presize of Slider:" + e)
+         }
+         //});
+      };
+   </script>
+</head>
+
+<body
+   class="home page-template page-template-elementor_header_footer page page-id-1489 wp-custom-logo theme-fastrans woocommerce-no-js ehf-template-fastrans ehf-stylesheet-fastrans menu-layer elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-1489">
+   <div class="boxed_wrapper">
+      <div id="preloader"></div>
+      <div class="up">
+         <a href="#" class="scrollup text-center"><i class="fas fa-chevron-up"></i></a>
+      </div>
+      <div class="pageloader" style="z-index: 999999;">
+         <div class="ftloader">
+            <div class="loader-inner semi-circle-spin">
+               <div></div>
+            </div>
+         </div>
+      </div>
+      <!-- Pageloader -->
+       <!-- Start of header section
+            ============================================= -->
+            <header id="ft-header" class="ft-header-section header-style-two">
+               <div class="ft-header-main-menu-wrapper">
+                   <div class="container-header">
+                       <div class="ft-header-main-menu-area position-relative">
+                           <div class="ft-header-main-menu d-flex align-items-center justify-content-between position-relative">
+                               <div class="ft-site-logo-area">
+                               <div class="ft-site-logo position-relative">
+                                   <a href="./" title=""><img src="assets/img/logo-white.png" alt="logo" style="width:90px;" /></a>							
+                               </div>
+                               </div>
+                               <div class="ft-main-navigation-area">
+                               <nav class="ft-main-navigation clearfix ul-li">
+                                   <ul id="ft-main-nav" class="nav navbar-nav clearfix">                                        
+                                       <li id="menu-item-1270" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1270 dropdown">
+                                           <a title="Services" href="services.html" data-scroll data-options="easing: easeOutQuart">Services</a><!--data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false"-->
+
+                                           <ul role="menu" class="dropdown-menu">
+                                               <div class="content_dropdown">
+                                                   <li id="menu-item-1270" class="dropdown-menu_one">
+                                               <a title="Services" href="services.html">Ground Services</a>
+                                                   <ul role="menu" class="dropleft-menu_one">
+                                                       <li id="menu-item-2204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2204"><a title="Full Truckload (FTL)" href="services/full_truckload.html">Full Truckload (FTL)</a></li>
+                                                       <li id="menu-item-2028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2028"><a title="Less Than Truckload (LTL)" href="services/less.html">Less Than Truckload (LTL)</a></li>
+                                                       <li id="menu-item-2103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2103"><a title="Drayage" href="services/drayage.html">Drayage</a></li>
+                                                       <li id="menu-item-1496" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2103"><a title="Expedited" href="services/expedited.html">Expedited</a></li>
+                                                       <li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a title="Transborder(Canada/Mexico)" href="services/transborder.html">Transborder(Canada/Mexico)</a></li>
+                                                       <li id="menu-item-1269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1269"><a title="Specialized/Out-of-Gauge" href="services/specialized.html">Specialized/Out-of-Gauge</a></li>
+                                                   </ul>
+                                               </li>
+                                               <li class="dropdown-menu_two">
+                                               <a title="Services" href="services.html">Global Forwarding</a>
+                                                   <ul role="menu" class="dropleft-menu_two">
+                                                       <li id="menu-item-2204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2204"><a title="Air Freight" href="services/air_freight.html">Air Freight</a></li>
+                                                   </ul>
+                                               </li>
+                                               <li class="dropdown-menu_three">
+                                               <a title="Services" href="services.html">Specialized Services</a>
+                                                   <ul role="menu" class="dropleft-menu_three">
+                                                       <li id="menu-item-2204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2204"><a title="Warehousing" href="services/warehousing.html">Warehousing</a></li>
+                                                       <li id="menu-item-2028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2028"><a title="Customs Clearance" href="services/customs_clearance.html">Customs Clearance</a></li>
+                                                   </ul>
+                                               </li>
+                                               </div>
+                                               
+                                           </ul>
+                                       </li>
+                                       <li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a title="Carriers" href="carriers.html" class="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">Carriers</a></li>
+                                       <li id="menu-item-1270" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1270 dropdown">
+                                           <a title="Sectors" href="sectors.html" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">Sectors</a>
+                                           <ul role="menu" class="dropdown-menu clearfix">
+                                               <li id="menu-item-1496" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1496"><a title="Showfreight" href="sectors/showfreight.html">Showfreight</a></li>
+                                               <li id="menu-item-1268" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1268"><a title="Energy" href="sectors/energy.html">Energy</a></li>
+                                               <li id="menu-item-1269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1269"><a title="Technology" href="sectors/technology.html">Technology</a></li>
+                                               <li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a title="E-Commerce" href="sectors/e-commerce.html">E-Commerce</a></li>
+                                               <li id="menu-item-1827" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1827"><a title="Consumer & Retail" href="sectors/consumer.html">Consumer & Retail</a></li>
+                                               <li id="menu-item-1826" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1826"><a title="Industrial" href="sectors/industrial.html">Industrial</a></li>
+                                               <li id="menu-item-1878" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1878"><a title="Aerospace" href="sectors/aerospace.html">Aerospace</a></li>
+                                               <li id="menu-item-2028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2028"><a title="Automotive" href="sectors/automotive.html">Automotive</a></li>
+                                           </ul>
+                                       </li>
+                                       <li id="menu-item-435" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-435"><a title="About" href="about.html" class="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">About Us</a></li>
+                                       <li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a title="Contact" href="contact.html" class="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">Contact Us</a></li>
+                                       <li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a title="Faqs" href="faqs.html" class="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">FAQ</a></li>
+                                   </ul>
+                               </nav>
+                               </div>
+                               <div class="ft-header-cta-btn">
+                               <a class="d-flex justify-content-center align-items-center" href="join_us.html">Join Us</a>
+                               </div>
+                           </div>
+                           <div class="mobile_menu position-relative">
+                               <div class="mobile_menu_button open_mobile_menu">
+                               <i class="fal fa-bars"></i>
+                               </div>
+                               <div class="mobile_menu_wrap">
+                               <div class="mobile_menu_overlay open_mobile_menu"></div>
+                               <div class="mobile_menu_content">
+                                   <div class="mobile_menu_close open_mobile_menu">
+                                       <i class="fal fa-times"></i>
+                                   </div>
+                                   <div class="m-brand-logo">
+                                       <a href="./" title=""><img src="assets/img/logo-white.png" alt="logo" style="width:90px;" /></a>								
+                                   </div>
+                                   <nav class="mobile-main-navigation  clearfix ul-li">
+                                       <ul id="m-main-nav" class="navbar-nav text-capitalize clearfix">
+                                           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1270"><a title="Home" href="./" class="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">Home</a></li>
+                                           <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-1270 dropdown current">
+                                               <a title="Services" href="services.html" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">Services</a>
+                                               <ul role="menu" class="dropdown-menu_one clearfix">
+                                                   <div class="dropleft-menu">
+                                                       <a title="Services" href="services.html">Ground Services</a>
+                                                       <li id="menu-item-2204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2204"><a title="Full Truckload (FTL)" href="services/full_truckload.html">Full Truckload (FTL)</a></li>
+                                                       <li id="menu-item-2028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2028"><a title="Less Than Truckload (LTL)" href="services/less.html">Less Than Truckload (LTL)</a></li>
+                                                       <li id="menu-item-2103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2103"><a title="Drayage" href="services/drayage.html">Drayage</a></li>
+                                                       <li id="menu-item-1496" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2103"><a title="Expedited" href="services/expedited.html">Expedited</a></li>
+                                                       <li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a title="Transborder(Canada/Mexico)" href="services/transborder.html">Transborder(Canada/Mexico)</a></li>
+                                                       <li id="menu-item-1269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1269"><a title="Specialized/Out-of-Gauge" href="services/specialized.html">Specialized/Out-of-Gauge</a></li>
+                                                       <a title="Services" href="services.html">Global Forwarding</a>
+                                                       <li id="menu-item-2204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2204"><a title="Air Freight" href="services/air_freight.html">Air Freight</a></li>
+
+                                                       <a title="Services" href="services.html">Specialized Services</a>
+                                                       <li id="menu-item-2204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2204"><a title="Warehousing" href="services/warehousing.html">Warehousing</a></li>
+                                                       <li id="menu-item-2028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2028"><a title="Customs Clearance" href="services/customs_clearance.html">Customs Clearance</a></li>
+                                                   </div>
+                                               </ul>
+                                            </li>
+                                           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a title="Carriers" href="carriers.html" class="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">Carriers</a></li>
+                                           <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-1270 dropdown current">
+                                               <a title="Sectors" href="sectors.html" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">Sectors</a>
+                                               <ul role="menu" class="dropdown-menu clearfix">
+                                                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1496"><a title="Showfreight" href="sectors/showfreight.html">Showfreight</a></li>
+                                                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1268"><a title="Warehousing" href="sectors/energy.html">Energy</a></li>
+                                                  <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-21 current_page_item menu-item-1269"><a title="Technology" href="sectors/technology.html">Technology</a></li>
+                                                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a title="E-Commerce" href="sectors/e-commerce.html">E-Commerce</a></li>
+                                                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1827"><a title="Consumer & Retail" href="sectors/consumer.html">Consumer & Retail</a></li>
+                                                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1826"><a title="Industrial" href="sectors/industrial.html">Industrial</a></li>
+                                                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1878"><a title="Aerospace" href="sectors/aerospace.html">Aerospace</a></li>
+                                                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2028"><a title="Automotive" href="sectors/automotive.html">Automotive</a></li>
+                                               </ul>
+                                            </li>
+                                           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-435"><a title="About Us" href="about.html" class="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">About Us</a></li>
+                                           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a title="Contact" href="contact.html" class="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">Contact Us</a></li>
+                                           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a title="Join Us" href="join_us.html" class="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">Join Us</a></li>
+                                           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a title="Faqs" href="faqs.html" class="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">FAQs</a></li>
+   
+                                           </ul>
+                                   </nav>
+                               </div>
+                               </div>
+                               <!-- /Mobile-Menu -->
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </header>
+       <!-- End of header section
+         ============================================= -->
+      <div data-elementor-type="wp-page" data-elementor-id="1489" class="elementor elementor-1489">
+         <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-aac5ec8 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+            data-id="aac5ec8" data-element_type="section">
+            <div class="elementor-container elementor-column-gap-default">
+               <div
+                  class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7dae578"
+                  data-id="7dae578" data-element_type="column">
+                  <div class="elementor-widget-wrap elementor-element-populated">
+                     <div
+                        class="elementor-element elementor-element-84af34a elementor-widget elementor-widget-slider_revolution"
+                        data-id="84af34a" data-element_type="widget" data-widget_type="slider_revolution.default">
+                        <div class="elementor-widget-container">
+                           <div id="ft-slider-section-3" class="wp-block-themepunch-revslider">
+                              <!-- START Home V3 REVOLUTION SLIDER 6.6.8 -->
+                              <p class="rs-p-wp-fix"></p>
+                              <rs-module-wrap id="rev_slider_3_1_wrapper" data-source="gallery"
+                                 style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+                                 <rs-module id="rev_slider_3_1" class="width-slider" style="" data-version="6.6.8">
+                                    <rs-slides style="overflow: hidden; position: absolute;">
+                                       <rs-slide style="position: absolute;" data-key="rs-7" data-title="Slide"
+                                          data-thumb="//themexriver.com/fastrans-theme/fastrans/assets/img/slider1-50x100.png"
+                                          data-anim="adpr:false;" data-in="o:0;" data-out="a:false;">
+                                          <img decoding="async"
+                                             src="assets/img/revslider/public/assets/assets/dummy.png" alt=""
+                                             title="slider1" width="1280" height="715"
+                                             class="rev-slidebg tp-rs-img rs-lazyload"
+                                             data-lazyload="assets/img/banners/banners_sectors.png" data-no-retina>
+                                          <!--
+                                                -->
+                                          <rs-layer id="" data-type="text" data-color="#fa4216" data-rsp_ch="on"
+                                             data-xy="x:l,l,l,c;xo:30px,30px,30px,0;y:m;yo:-120px,-160px,-151px,-180px;"
+                                             data-text="w:normal;s:21,20,20,20;l:30,31,32,32;fw:700;a:left,left,left,center;"
+                                             data-dim="w:auto,auto,auto,420px;" data-frame_0="o:1;"
+                                             data-frame_0_chars="d:5;y:-100%;o:0;rZ:35deg;" data-frame_0_mask="u:t;"
+                                             data-frame_1="sp:1200;" data-frame_1_chars="e:power4.inOut;d:10;rZ:0deg;"
+                                             data-frame_1_mask="u:t;" data-frame_999="o:0;st:w;"
+                                             style="z-index:8;font-family:'Roboto';text-transform:uppercase;"
+                                             class="h2-about">We specialise in the transportation
+                                          </rs-layer>
+                                          <!--
+                                                -->
+                                          <rs-layer id="slider-3-slide-7-layer-1" data-type="text" data-rsp_ch="on"
+                                             data-xy="x:l,l,l,c;xo:30px,30px,30px,0;y:m;yo:-20px,-62px,-43px,-92px;"
+                                             data-text="w:normal;s:85,60,60,40;l:70,67,70,63;fw:700;a:left,left,left,center;"
+                                             data-dim="w:auto,auto,auto,420px;" data-frame_1="e:power4.inOut;sp:1200;"
+                                             data-frame_1_sfx="se:blocktoright;" data-frame_999="o:0;st:w;"
+                                             style="z-index:9;font-family:'Poppins';" class="h1-about">Sectors
+                                          </rs-layer>
+                                          <!--
+                                                -->
+
+                                          <rs-layer id="slider-3-slide-7-layer-3" data-type="image" data-rsp_ch="on"
+                                             data-xy="x:r;xo:-460px,-600px,-455px,-280px;y:b;yo:100px,90px,68px,41px;"
+                                             data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+                                             data-dim="w:1034px,auto,auto,auto;h:599px,auto,auto,auto;"
+                                             data-vbility="t,t,f,f" data-frame_0="x:50,41,31,19;"
+                                             data-frame_1="sp:1000;" data-frame_999="o:0;st:w;" style="z-index:12;"><img
+                                                decoding="async"
+                                                src="assets/plugins/revslider/public/assets/assets/dummy.png"
+                                                alt="Awesome Image" class="tp-rs-img rs-lazyload" width="604"
+                                                height="458" data-lazyload="assets/img/banners/truck-2.png"
+                                                data-no-retina>
+                                          </rs-layer>
+
+                                       </rs-slide>
+                                    </rs-slides>
+                                    <rs-static-layers>
+                                       <!--
+                                             -->
+                                    </rs-static-layers>
+                                 </rs-module>
+                                 <script>
+                                    setREVStartSize({ c: 'rev_slider_3_1', rl: [1240, 1024, 778, 480], el: [990, 768, 960, 720], gw: [1240, 1024, 778, 480], gh: [990, 768, 960, 720], type: 'standard', justify: '', layout: 'fullwidth', mh: "0" }); if (window.RS_MODULES !== undefined && window.RS_MODULES.modules !== undefined && window.RS_MODULES.modules["revslider31"] !== undefined) { window.RS_MODULES.modules["revslider31"].once = false; window.revapi3 = undefined; if (window.RS_MODULES.checkMinimal !== undefined) window.RS_MODULES.checkMinimal() }
+                                 </script>
+                              </rs-module-wrap>
+                              <!-- END REVOLUTION SLIDER -->
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-3eff2b4 elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default"
+            data-id="3eff2b4" data-element_type="section"
+            data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+            <div class="elementor-container elementor-column-gap-default">
+               <div
+                  class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3450f1e"
+                  data-id="3450f1e" data-element_type="column">
+                  <div class="elementor-widget-wrap elementor-element-populated">
+                     <div
+                        class="elementor-element elementor-element-c69d4b9 elementor-widget elementor-widget-fastrans_our_projects_v3"
+                        data-id="c69d4b9" data-element_type="widget"
+                        data-widget_type="fastrans_our_projects_v3.default">
+                        <div class="elementor-widget-container">
+                           <!-- Start of Project section
+      ============================================= -->
+                           <section id="ft-portfolio-2" class="ft-portfolio-section-2 position-relative">
+                              <div class="ft-section-title-2 headline pera-content text-center">
+                                 <h2>Sectors</h2>
+                              </div>
+                              <div class="ft-portfolio-content-2">
+                                 <div class="ft-portfolio-slider-2">
+                                    <div class="ft-portfolio-slider-item">
+                                       <div class="ft-portfolio-slider-innerbox position-relative">
+                                          <div class="ft-project-img">
+                                             <img width="473" height="500" src="assets/img/sectors/Showfreight.png"
+                                                class="attachment-fastrans_473x500 size-fastrans_473x500 wp-post-image"
+                                                alt="" decoding="async" loading="lazy"
+                                                srcset="assets/img/sectors/Showfreight.png"
+                                                sizes="(max-width: 473px) 100vw, 473px" />
+                                          </div>
+                                          <div class="ft-portfolio-text headline headline pera-content">
+                                             <h3>
+                                                <a href="sectors/showfreight.html">Showfreight</a>
+                                             </h3>
+                                             <p></p>
+                                             <div class="ft-btn-3">
+                                                <a class="d-flex justify-content-center align-items-center"
+                                                   href="sectors/showfreight.html">Read More <i
+                                                      class="flaticon-right-arrow"></i>
+                                                </a>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="ft-portfolio-slider-item">
+                                       <div class="ft-portfolio-slider-innerbox position-relative">
+                                          <div class="ft-project-img">
+                                             <img width="473" height="500" src="assets/img/sectors/energy1.png"
+                                                class="attachment-fastrans_473x500 size-fastrans_473x500 wp-post-image"
+                                                alt="" decoding="async" loading="lazy"
+                                                srcset="assets/img/sectors/energy1.png"
+                                                sizes="(max-width: 473px) 100vw, 473px" />
+                                          </div>
+                                          <div class="ft-portfolio-text headline headline pera-content">
+                                             <h3>
+                                                <a href="sectors/energy.html">Energy</a>
+                                             </h3>
+                                             <p></p>
+                                             <div class="ft-btn-3">
+                                                <a class="d-flex justify-content-center align-items-center"
+                                                   href="sectors/energy.html">Read More <i
+                                                      class="flaticon-right-arrow"></i>
+                                                </a>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="ft-portfolio-slider-item">
+                                       <div class="ft-portfolio-slider-innerbox position-relative">
+                                          <div class="ft-project-img">
+                                             <img width="473" height="500" src="assets/img/sectors/Technology1.png"
+                                                class="attachment-fastrans_473x500 size-fastrans_473x500 wp-post-image"
+                                                alt="" decoding="async" loading="lazy"
+                                                srcset="assets/img/sectors/Technology1.png"
+                                                sizes="(max-width: 473px) 100vw, 473px" />
+                                          </div>
+                                          <div class="ft-portfolio-text headline headline pera-content">
+                                             <h3>
+                                                <a href="sectors/technology.html">Technology</a>
+                                             </h3>
+                                             <p></p>
+                                             <div class="ft-btn-3">
+                                                <a class="d-flex justify-content-center align-items-center"
+                                                   href="sectors/technology.html">Read More <i
+                                                      class="flaticon-right-arrow"></i>
+                                                </a>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="ft-portfolio-slider-item">
+                                       <div class="ft-portfolio-slider-innerbox position-relative">
+                                          <div class="ft-project-img">
+                                             <img width="473" height="500" src="assets/img/sectors/ecommerce.png"
+                                                class="attachment-fastrans_473x500 size-fastrans_473x500 wp-post-image"
+                                                alt="" decoding="async" loading="lazy"
+                                                srcset="assets/img/sectors/ecommerce.png"
+                                                sizes="(max-width: 473px) 100vw, 473px" />
+                                          </div>
+                                          <div class="ft-portfolio-text headline headline pera-content">
+                                             <h3>
+                                                <a href="sectors/e-commerce.html">E-Commerce</a>
+                                             </h3>
+                                             <p></p>
+                                             <div class="ft-btn-3">
+                                                <a class="d-flex justify-content-center align-items-center"
+                                                   href="sectors/e-commerce.html">Read More <i
+                                                      class="flaticon-right-arrow"></i>
+                                                </a>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="ft-portfolio-slider-item">
+                                       <div class="ft-portfolio-slider-innerbox position-relative">
+                                          <div class="ft-project-img">
+                                             <img width="473" height="500" src="assets/img/sectors/Consumer.png"
+                                                class="attachment-fastrans_473x500 size-fastrans_473x500 wp-post-image"
+                                                alt="" decoding="async" loading="lazy"
+                                                srcset="assets/img/sectors/Consumer.png"
+                                                sizes="(max-width: 473px) 100vw, 473px" />
+                                          </div>
+                                          <div class="ft-portfolio-text headline headline pera-content">
+                                             <h3>
+                                                <a href="sectors/consumer.html">Consumer & Retail</a>
+                                             </h3>
+                                             <p></p>
+                                             <div class="ft-btn-3">
+                                                <a class="d-flex justify-content-center align-items-center"
+                                                   href="sectors/consumer.html">Read More <i
+                                                      class="flaticon-right-arrow"></i>
+                                                </a>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="ft-portfolio-slider-item">
+                                       <div class="ft-portfolio-slider-innerbox position-relative">
+                                          <div class="ft-project-img">
+                                             <img width="473" height="500" src="assets/img/sectors/industrial1.png"
+                                                class="attachment-fastrans_473x500 size-fastrans_473x500 wp-post-image"
+                                                alt="" decoding="async" loading="lazy"
+                                                srcset="assets/img/sectors/industrial1.png"
+                                                sizes="(max-width: 473px) 100vw, 473px" />
+                                          </div>
+                                          <div class="ft-portfolio-text headline headline pera-content">
+                                             <h3>
+                                                <a href="sectors/industrial.html">Industrial</a>
+                                             </h3>
+                                             <p></p>
+                                             <div class="ft-btn-3">
+                                                <a class="d-flex justify-content-center align-items-center"
+                                                   href="sectors/industrial.html">Read More <i
+                                                      class="flaticon-right-arrow"></i>
+                                                </a>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="ft-portfolio-slider-item">
+                                       <div class="ft-portfolio-slider-innerbox position-relative">
+                                          <div class="ft-project-img">
+                                             <img width="473" height="500" src="assets/img/sectors/aeroespace1.png"
+                                                class="attachment-fastrans_473x500 size-fastrans_473x500 wp-post-image"
+                                                alt="" decoding="async" loading="lazy" />
+                                          </div>
+                                          <div class="ft-portfolio-text headline headline pera-content">
+                                             <h3>
+                                                <a href="sectors/aerospace.html">Aerospace</a>
+                                             </h3>
+                                             <p></p>
+                                             <div class="ft-btn-3">
+                                                <a class="d-flex justify-content-center align-items-center"
+                                                   href="sectors/aerospace.html">Read More <i
+                                                      class="flaticon-right-arrow"></i>
+                                                </a>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="ft-portfolio-slider-item">
+                                       <div class="ft-portfolio-slider-innerbox position-relative">
+                                          <div class="ft-project-img">
+                                             <img width="473" height="500" src="assets/img/sectors/AUTOMOTIVE.png"
+                                                class="attachment-fastrans_473x500 size-fastrans_473x500 wp-post-image"
+                                                alt="" decoding="async" loading="lazy" />
+                                          </div>
+                                          <div class="ft-portfolio-text headline headline pera-content">
+                                             <h3>
+                                                <a href="sectors/automotive.html">Automotive</a>
+                                             </h3>
+                                             <p></p>
+                                             <div class="ft-btn-3">
+                                                <a class="d-flex justify-content-center align-items-center"
+                                                   href="sectors/automotive.html">Read More <i
+                                                      class="flaticon-right-arrow"></i>
+                                                </a>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </section> <!-- End of Project section
+      ============================================= -->
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+
+
+
+      </div>
+      <div class="clearfix"></div>
+      <div class="pageloader" style="z-index: 999999;">
+         <div class="ftloader">
+            <div class="loader-inner semi-circle-spin">
+               <div></div>
+            </div>
+         </div>
+      </div>
+      <!-- Pageloader -->
+      <!-- Start Of Footer section
+            ============================================= -->
+
+      <footer id="ft-footer-3" class="ft-footer-section-3" data-background="assets/img/bn_footer.png">
+         <div class="ft-footer-widget-wrapper-3">
+            <div class="container container-footer">
+               <div class="ft-footer-content-wrap-3">
+                  <div class="row-footer">
+                     <div class="footer-det1 wow animated fadeInUp">
+                        <div id="fastrans_about_company-1"
+                           class="footer-widget ft-footer-widget widget_fastrans_about_company">
+                           <div class="ft-footer-logo-widget headline pera-content">
+                              <div class="ft-footer-logo">
+                                 <a href="../index.html"><img src="assets/img/logo-white.png" alt="Awesome Image"></a>
+                              </div>
+                              <p>Sciens Logistics is is headquartered in Deerfield Beach, Florida and specializes in
+                                 assisting customers with a complete supply chain solution around the globe.
+                                 It´s our constant endeavor to help customers with economical & effective solutions.
+                              </p>
+
+                           </div>
+                        </div>
+                     </div>
+                     <div class="footer-det wow animated fadeInUp">
+                        <div id="fastrans_newsletter-1"
+                           class="footer-widget ft-footer-widget widget_fastrans_newsletter">
+                           <!--Start single footer widget-->
+                           <div class="ft-footer-newslatter-widget pera-content headline">
+                              <h3 class="widget-title">Social Media</h3>
+                              <ul>
+                                 <li><a href="#">Facebook</a></li>
+                                 <li><a href="#">Instagram</a></li>
+                                 <li><a href="#">Youtube</a></li>
+                                 <li><a href="#">Twitter</a></li>
+                                 <li><a href="#">LikedIn</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="footer-det wow animated fadeInUp">
+                        <div id="fastrans_contact_info-1"
+                           class="footer-widget ft-footer-widget widget_fastrans_contact_info">
+                           <!--Start single footer widget-->
+                           <div class="ft-footer-newslatter-widget pera-content headline">
+                              <h3 class="widget-title">Contact Us</h3>
+                              <ul>
+                                 <li><a href="tel:+786-244-5903">786-244-5903</a></li>
+                                 <li><a href="mailto:Quotes@scienslogistics.com"
+                                       class="a-footer">Quotes@scienslogistics.com</a></li>
+                                 <li><a href="#">Get Started </a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="footer-det wow animated fadeInUp">
+                        <div id="fastrans_our_projects_v2-1"
+                           class="footer-widget ft-footer-widget widget_fastrans_our_projects_v2">
+                           <!-- Instagram Widget -->
+                           <div class="pera-content">
+                              <div class="ft-footer-newslatter-widget pera-content headline">
+                                 <h3 class="widget-title">Explore</h3>
+                                 <ul>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="carriers.html">Carriers</a></li>
+                                    <li><a href="sectors.html">Sectors</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="join.html">Join</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="ft-footer-copyright">
+                  <span>© 2023 Fastrans - Sciens Logistics. All rights reserved.</span>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- End of Footer section
+            ============================================= -->
+   </div>
+   <!--End Page Wrapper-->
+   <script>
+      window.RS_MODULES = window.RS_MODULES || {};
+      window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+      window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+      window.RS_MODULES.defered = true;
+      window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+      window.RS_MODULES.type = 'compiled';
+   </script>
+   <script>(function () {
+         function maybePrefixUrlField() {
+            if (this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+               this.value = "http://" + this.value;
+            }
+         }
+
+         var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+         if (urlFields) {
+            for (var j = 0; j < urlFields.length; j++) {
+               urlFields[j].addEventListener('blur', maybePrefixUrlField);
+            }
+         }
+      })();
+   </script>
+   <link href="https://fonts.googleapis.com/css?family=Roboto:700%2C500%2C400%7CPoppins:700&amp;display=swap"
+      rel="stylesheet" property="stylesheet" media="all" type="text/css">
+   <script type="text/javascript">
+      (function () {
+         var c = document.body.className;
+         c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+         document.body.className = c;
+      })();
+   </script>
+   <script>
+      if (typeof revslider_showDoubleJqueryError === "undefined") { function revslider_showDoubleJqueryError(sliderID) { console.log("You have some jquery.js library include that comes after the Slider Revolution files js inclusion."); console.log("To fix this, you can:"); console.log("1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on"); console.log("2. Find the double jQuery.js inclusion and remove it"); return "Double Included jQuery Library"; } }
+   </script>
+   <link rel="preload" as="font" id="rs-icon-set-revicon-woff"
+      href="assets/plugins/revslider/public/assets/fonts/revicons/revicons90c6.woff?5510888" type="font/woff"
+      crossorigin="anonymous" media="all" />
+   <link rel="preload" as="font" id="rs-icon-set-fa-icon-woff" type="font/woff2" crossorigin="anonymous"
+      href="assets/plugins/revslider/public/assets/fonts/font-awesome/fonts/fontawesome-webfont3e6e.woff2?v=4.7.0"
+      media="all" />
+   <link rel="stylesheet" property="stylesheet" id="rs-icon-set-fa-icon-css"
+      href="assets/plugins/revslider/public/assets/fonts/font-awesome/css/font-awesome.css" type="text/css"
+      media="all" />
+   <link rel='stylesheet' id='hfe-widgets-style-css'
+      href='assets/plugins/header-footer-elementor/inc/widgets-css/frontend1f62.css?ver=1.6.13' type='text/css'
+      media='all' />
+   <link rel='stylesheet' id='rs-plugin-settings-css'
+      href='assets/plugins/revslider/public/assets/css/rs6f7b3.css?ver=6.6.8' type='text/css' media='all' />
+   <style id='rs-plugin-settings-inline-css' type='text/css'>
+      #rev_slider_3_1_wrapper .hesperiden.tparrows {
+         cursor: pointer;
+         background: #ffffff;
+         width: 40px;
+         height: 40px;
+         position: absolute;
+         display: block;
+         z-index: 1000;
+         border-radius: 50%
+      }
+
+      #rev_slider_3_1_wrapper .hesperiden.tparrows.rs-touchhover {
+         background: #0090ff
+      }
+
+      #rev_slider_3_1_wrapper .hesperiden.tparrows:before {
+         font-family: 'revicons';
+         font-size: 20px;
+         color: #000000;
+         display: block;
+         line-height: 40px;
+         text-align: center
+      }
+
+      #rev_slider_3_1_wrapper .hesperiden.tparrows.tp-leftarrow:before {
+         content: '\e820';
+         margin-left: -3px
+      }
+
+      #rev_slider_3_1_wrapper .hesperiden.tparrows.tp-rightarrow:before {
+         content: '\e81d';
+         margin-right: -3px
+      }
+
+      #rev_slider_3_1[data-slideactive="rs-7"] .hesperiden.tparrows {
+         background: #ffffff !important
+      }
+
+      #rev_slider_3_1[data-slideactive="rs-7"] .hesperiden.tparrows:before {
+         color: #000000 !important
+      }
+
+      #rev_slider_3_1[data-slideactive="rs-7"] .hesperiden.tparrows.rs-touchhover {
+         background: #0090ff !important
+      }
+   </style>
+   <script type='text/javascript'
+      src='assets/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min53ec.js?ver=2.7.0-wc.7.1.0'
+      id='jquery-blockui-js'></script>
+   <script type='text/javascript' src='assets/plugins/woocommerce/assets/js/frontend/add-to-cart.min9d27.js?ver=7.1.0'
+      id='wc-add-to-cart-js'></script>
+   <script type='text/javascript'
+      src='assets/plugins/woocommerce/assets/js/js-cookie/js.cookie.min8b1a.js?ver=2.1.4-wc.7.1.0'
+      id='js-cookie-js'></script>
+   <script type='text/javascript' src='assets/plugins/woocommerce/assets/js/frontend/woocommerce.min9d27.js?ver=7.1.0'
+      id='woocommerce-js'></script>
+   <script type='text/javascript'
+      src='assets/plugins/woocommerce/assets/js/frontend/cart-fragments.min9d27.js?ver=7.1.0'
+      id='wc-cart-fragments-js'></script>
+   <script type='text/javascript' src='assets/plugins/contact-form-7/includes/swv/js/index77e1.js?ver=5.6.4'
+      id='swv-js'></script>
+   <script type='text/javascript' src='assets/plugins/contact-form-7/includes/js/index77e1.js?ver=5.6.4'
+      id='contact-form-7-js'></script>
+   <script type='text/javascript' src='assets/plugins/revslider/public/assets/js/rbtools.minf7b3.js?ver=6.6.8' defer
+      async id='tp-tools-js'></script>
+   <script type='text/javascript' src='assets/plugins/revslider/public/assets/js/rs6.minf7b3.js?ver=6.6.8' defer async
+      id='revmin-js'></script>
+   <script type='text/javascript' src='assets/js/core.min3f14.js?ver=1.13.2' id='jquery-ui-core-js'></script>
+   <script type='text/javascript' src='assets/js/popper.min431f.js?ver=2.1.2' id='popper-js'></script>
+   <script type='text/javascript' src='assets/js/bootstrap.min431f.js?ver=2.1.2' id='bootstrap-js'></script>
+   <script type='text/javascript' src='assets/js/jquery-ui.min431f.js?ver=2.1.2' id='jquery-ui-js'></script>
+   <script type='text/javascript' src='assets/js/mouse.min3f14.js?ver=1.13.2' id='jquery-ui-mouse-js'></script>
+   <script type='text/javascript' src='assets/js/jquery.ui.touch-punchc682.js?ver=0.2.2'
+      id='jquery-touch-punch-js'></script>
+   <script type='text/javascript' src='assets/js/jquery.magnific-popup.min431f.js?ver=2.1.2'
+      id='jquery-magnific-popup-js'></script>
+   <script type='text/javascript' src='assets/js/owl.carousel.min431f.js?ver=2.1.2' id='owl-carousel-js'></script>
+   <script type='text/javascript' src='assets/js/appear431f.js?ver=2.1.2' id='appear-js'></script>
+   <script type='text/javascript' src='assets/js/slick431f.js?ver=2.1.2' id='slick-js'></script>
+   <script type='text/javascript' src='assets/js/jquery.counterup.min431f.js?ver=2.1.2'
+      id='jquery-counterup-js'></script>
+   <script type='text/javascript' src='assets/js/waypoints.min431f.js?ver=2.1.2' id='waypoints-js'></script>
+   <script type='text/javascript' src='assets/js/imagesloaded.mineda1.js?ver=4.1.4' id='imagesloaded-js'></script>
+   <script type='text/javascript' src='assets/js/jquery.mCustomScrollbar.concat.min431f.js?ver=2.1.2'
+      id='jquery-mcustomscrollbar-js'></script>
+   <script type='text/javascript' src='assets/js/wow.min431f.js?ver=2.1.2' id='wow-js'></script>
+   <script type='text/javascript' src='assets/js/jquery.cssslider.min431f.js?ver=2.1.2'
+      id='jquery-css-slider-js'></script>
+   <script type='text/javascript' src='assets/js/rbtools.min431f.js?ver=2.1.2' defer async id='rbtools-js'></script>
+   <script type='text/javascript' src='assets/js/animation-loading431f.js?ver=2.1.2' id='animation-loading-js'></script>
+   <script type='text/javascript' src='assets/js/knob431f.js?ver=2.1.2' id='knob-js'></script>
+   <script type='text/javascript' src='assets/js/typer431f.js?ver=2.1.2' id='typer-js'></script>
+   <script type='text/javascript' src='assets/js/mixitup431f.js?ver=2.1.2' id='mixitup-js'></script>
+   <script type='text/javascript' src='assets/js/script6a4d.js?ver=6.1.1' id='fastrans-main-script-js'></script>
+   <script type='text/javascript' src='assets/js/script-new6a4d.js?ver=6.1.1' id='fastrans-script-new-js'></script>
+   <script type='text/javascript' src='assets/js/transport-script6a4d.js?ver=6.1.1'
+      id='fastrans-transport-script-js'></script>
+   <script type='text/javascript' src='assets/js/comment-reply.min6a4d.js?ver=6.1.1' id='comment-reply-js'></script>
+   <script type='text/javascript' defer src='assets/plugins/mailchimp-for-wp/assets/js/formse0ed.js?ver=4.8.11'
+      id='mc4wp-forms-api-js'></script>
+   <script type='text/javascript' src='assets/plugins/elementor/assets/js/webpack.runtime.min7e2e.js?ver=3.8.1'
+      id='elementor-webpack-runtime-js'></script>
+   <script type='text/javascript' src='assets/plugins/elementor/assets/js/frontend-modules.min7e2e.js?ver=3.8.1'
+      id='elementor-frontend-modules-js'></script>
+   <script type='text/javascript' src='assets/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2'
+      id='elementor-waypoints-js'></script>
+   <script type='text/javascript' id='elementor-frontend-js-before'>
+      var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Extra", "value": 880, "default_value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tablet", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Extra", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.8.1", "is_static": false, "experimentalFeatures": { "e_dom_optimization": true, "e_optimized_assets_loading": true, "e_optimized_css_loading": true, "a11y_improvements": true, "additional_custom_breakpoints": true, "e_import_export": true, "e_hidden_wordpress_widgets": true, "landing-pages": true, "elements-color-picker": true, "favorite-widgets": true, "admin-top-bar": true }, "urls": { "assets": "https:\/\/themexriver.com\/fastrans-theme\/fastrans\/wp-content\/plugins\/elementor\/assets\/" }, "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_tablet"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 1489, "title": "Just%20another%20My%20WordPress%20Sites%20site", "excerpt": "", "featuredImage": false } };
+   </script>
+
+   <script type='text/javascript' src='assets/plugins/elementor/assets/js/frontend.min7e2e.js?ver=3.8.1'
+      id='elementor-frontend-js'></script>
+   <script id="rs-initialisation-scripts">
+      var tpj = jQuery;
+
+      var revapi3;
+
+      if (window.RS_MODULES === undefined) window.RS_MODULES = {};
+      if (RS_MODULES.modules === undefined) RS_MODULES.modules = {};
+      RS_MODULES.modules["revslider31"] = {
+         once: RS_MODULES.modules["revslider31"] !== undefined ? RS_MODULES.modules["revslider31"].once : undefined, init: function () {
+            window.revapi3 = window.revapi3 === undefined || window.revapi3 === null || window.revapi3.length === 0 ? document.getElementById("rev_slider_3_1") : window.revapi3;
+            if (window.revapi3 === null || window.revapi3 === undefined || window.revapi3.length == 0) { window.revapi3initTry = window.revapi3initTry === undefined ? 0 : window.revapi3initTry + 1; if (window.revapi3initTry < 20) requestAnimationFrame(function () { RS_MODULES.modules["revslider31"].init() }); return; }
+            window.revapi3 = jQuery(window.revapi3);
+            if (window.revapi3.revolution == undefined) { revslider_showDoubleJqueryError("rev_slider_3_1"); return; }
+            revapi3.revolutionInit({
+               revapi: "revapi3",
+               DPR: "dpr",
+               sliderLayout: "fullwidth",
+               visibilityLevels: "1240,1024,778,480",
+               gridwidth: "1240,1024,778,480",
+               gridheight: "1050,768,960,720",
+               lazyType: "smart",
+               perspective: 600,
+               perspectiveType: "global",
+               editorheight: "1050,768,960,720",
+               responsiveLevels: "1240,1024,778,480",
+               progressBar: { disableProgressBar: true },
+               navigation: {
+                  wheelCallDelay: 1000,
+                  onHoverStop: false,
+                  arrows: {
+                     enable: false,
+                     style: "hesperiden",
+                     hide_onmobile: true,
+                     hide_under: "1350px",
+                     left: {
+                        h_offset: 30,
+                        v_offset: -55
+                     },
+                     right: {
+                        h_align: "left",
+                        h_offset: 30
+                     }
+                  }
+               },
+               viewPort: {
+                  global: true,
+                  globalDist: "-200px",
+                  enable: false
+               },
+               fallbacks: {
+                  allowHTML5AutoPlayOnAndroid: true
+               },
+            });
+
+         }
+      } // End of RevInitScript
+
+      if (window.RS_MODULES.checkMinimal !== undefined) { window.RS_MODULES.checkMinimal(); };
+
+
+   </script>
+   <script src='//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.min.js'></script>
+
+   <script>
+      var flkty1 = new Flickity('.main-gallery', {
+         pageDots: false,
+         cellAlign: 'left',
+         contain: true,
+         wrapAround: true,
+         prevNextButtons: true,
+         autoPlay: 2500
+      });
+
+   </script>
+
+   <script>
+      document.getElementById("ft-header").style.display = "none";
+      var lastScrollTop = 150;
+      window.addEventListener("scroll", function () {
+         var st = window.pageYOffset || document.documentElement.scrollTop;
+         if (st == lastScrollTop) {
+            // downscroll code
+            document.getElementById("ft-header").style.display = "none";
+
+
+         } else {
+            if (st < 150) {
+               document.getElementById("ft-header").style.display = "none";
+
+            } else {
+               document.getElementById("ft-header").style.display = "block";
+
+            }
+
+
+         }
+
+         lastScrollTop = st;
+      });
+   </script>
+
+</body>
+
+</html>

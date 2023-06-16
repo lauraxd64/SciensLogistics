@@ -1,0 +1,1435 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js no-svg">
+   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+   <head>
+      <meta charset="UTF-8">
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+      <link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
+      <!-- responsive meta -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- For IE -->
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>SciensLogistics</title>
+      <meta name='robots' content='max-image-preview:large' />
+      <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+      <link rel='stylesheet' id='wp-block-library-css' href='assets/css/style.min6a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <style id='wp-block-library-theme-inline-css' type='text/css'>
+         .wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-top:4px solid;border-bottom:4px solid;margin-bottom:1.75em;color:currentColor}.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer{color:currentColor;text-transform:uppercase;font-size:.8125em;font-style:normal}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;position:relative;font-style:normal}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:"0 0 1em 0"}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video{margin:0 0 1em}.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}
+      </style>
+      <link rel='stylesheet' id='wc-blocks-vendors-style-css' href='assets/plugins//woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style8caf.css?ver=8.7.5' type='text/css' media='all' />
+      <link rel='stylesheet' id='wc-blocks-style-css' href='assets/plugins//woocommerce/packages/woocommerce-blocks/build/wc-blocks-style8caf.css?ver=8.7.5' type='text/css' media='all' />
+      <link rel='stylesheet' id='classic-theme-styles-css' href='assets/css/classic-themes.min68b3.css?ver=1' type='text/css' media='all' />
+      <style id='global-styles-inline-css' type='text/css'>
+         body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--strong-yellow: #f7bd00;--wp--preset--color--strong-white: #fff;--wp--preset--color--light-black: #242424;--wp--preset--color--very-light-gray: #797979;--wp--preset--color--very-dark-black: #000000;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 10px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 24px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--normal: 15px;--wp--preset--font-size--huge: 36px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+         .wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+         :where(.wp-block-columns.is-layout-flex){gap: 2em;}
+         .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+      </style>
+      <link rel='stylesheet' id='woocommerce-layout-css' href='assets/plugins//woocommerce/assets/css/woocommerce-layout9d27.css?ver=7.1.0' type='text/css' media='all' />
+      <link rel='stylesheet' id='woocommerce-smallscreen-css' href='assets/plugins//woocommerce/assets/css/woocommerce-smallscreen9d27.css?ver=7.1.0' type='text/css' media='only screen and (max-width: 768px)' />
+      <link rel='stylesheet' id='woocommerce-general-css' href='assets/plugins//woocommerce/assets/css/woocommerce9d27.css?ver=7.1.0' type='text/css' media='all' />
+      <style id='woocommerce-inline-inline-css' type='text/css'>
+         .woocommerce form .form-row .required { visibility: visible; }
+      </style>
+      <link rel='stylesheet' id='contact-form-7-css' href='assets/plugins/contact-form-7/includes/css/styles77e1.css?ver=5.6.4' type='text/css' media='all' />
+      <link rel='stylesheet' id='hfe-style-css' href='assets/plugins/header-footer-elementor/assets/css/header-footer-elementor1f62.css?ver=1.6.13' type='text/css' media='all' />
+      <link rel='stylesheet' id='elementor-icons-css' href='assets/plugins/elementor/assets/lib/eicons/css/elementor-icons.min91ce.css?ver=5.16.0' type='text/css' media='all' />
+      <link rel='stylesheet' id='elementor-frontend-css' href='assets/plugins/elementor/assets/css/frontend-lite.min7e2e.css?ver=3.8.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='elementor-post-5-css' href='assets/css/post-544b1.css?ver=1642400728' type='text/css' media='all' />
+      <link rel='stylesheet' id='elementor-global-css' href='assets/css/global9723.css?ver=1642400729' type='text/css' media='all' />
+      <link rel='stylesheet' id='fontawesome-all-css' href='assets/css/fontawesome-all6a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='flaticon-css' href='assets/css/flaticon6a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='flaticon-home-v7-css' href='assets/css/icon-v7/flaticon-v76a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='flaticon-v2.css-css' href='assets/css/flaticon-v26a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='jquery-ui-css' href='assets/css/jquery-ui6a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='animate-css' href='assets/css/animate6a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='nice-select-css' href='assets/css/nice-select6a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='video-css' href='assets/css/video.min6a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='animated-slider-css' href='assets/css/animated-slider6a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='jquery-mcustomscrollbar-css' href='assets/css/jquery.mCustomScrollbar.min6a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='slick-css' href='assets/css/slick6a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='slick-theme-css' href='assets/css/slick-theme6a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='animate-team-css' href='assets/css/animate-team6a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='fastrans-woocommerce-css' href='assets/woocommerce/woocommerce6a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='fastrans-main-css' href='assets/style6a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='bootstrap-css' href='assets/css/bootstrap.min6a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='owl-carousel-css' href='assets/css/owl.carousel.min6a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='fastrans-main-style-css' href='assets/css/style6a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <style id='fastrans-main-style-inline-css' type='text/css'>
+         :root {
+         --ft-main-theme: #008eff;
+         --ft-second-theme: #fa4318;
+         }
+      </style>
+      <link rel='stylesheet' id='fastrans-updated-style-css' href='assets/css/updated-style6a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='fastrans-custom-css' href='assets/css/custom6a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='fastrans-responsive-css' href='assets/css/responsive6a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='fastrans-transport-css' href='assets/css/transport6a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='home_v7-css' href='assets/css/home_v76a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='transport-logistric-css' href='assets/css/transport-logistric6a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='transport-responsive-css' href='assets/css/transport-responsive6a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='home_v10-css' href='assets/css/home_v106a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='home_v11-css' href='assets/css/home_v116a4d.css?ver=6.1.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='fastrans-theme-fonts-css' href='https://fonts.googleapis.com/css?family=Poppins%3A100%2C200%2C300%2C400%2C600%2C500%2C700%7CRoboto%3A100%2C300%2C400%2C500%2C700&amp;subset=latin%2Clatin-ext' type='text/css' media='all' />
+      <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=6.1.1' type='text/css' media='all' />
+      <script type='text/javascript' src='assets/js/jquery.mina7a0.js?ver=3.6.1' id='jquery-core-js'></script>
+      <script type='text/javascript' src='assets/js/jquery-migrate.mind617.js?ver=3.3.2' id='jquery-migrate-js'></script>
+      <script type='text/javascript' src='assets/js/logistics68b3.js?ver=1' id='fastrans-logistics-script-js'></script>
+      <script type='text/javascript' src='assets/js/cal68b3.js?ver=1' id='cost-calculate-js'></script>
+      <!--section services-->
+      <script type="module" src="assets/js/alpine.min2c40.js?v=1174366"></script>
+
+      <style>
+         .ftn-header-content-wrap .brand-logo,
+         .ftn-header-content-area:before,
+         .ftn-header-main-menu-cta-btn .header-cta-btn a{
+         background-color: #d97500;
+         }
+         .ftn-header-main-menu-cta-btn .header-cta-btn a:hover{
+         background-color: #ba6502;
+         }
+         .footer_style_nine .ft-footer-widget .widget-title{
+         color: #FFFFFF;
+         }
+         .footer_style_nine .ft-footer-widget .ft-footer-logo-widget p,
+         .footer_style_nine .ft-footer-widget .ft-footer-newslatter-widget p,
+         .footer_style_nine .ft-footer-widget .ft-footer-info-widget a,
+         .footer_style_nine .ft-footer-widget .ft-footer-info-widget .office-open-hour p
+         {
+         color: #9d9d9d;
+         }
+         .footer_style_nine .ftn-footer-copyright
+         {
+         color: #FFFFFF;
+         }
+         .footer_style_nine .ft-footer-widget .ft-footer-logo-widget .footer-logo-btn,
+         .footer_style_nine .ft-footer-widget .ft-footer-newslatter-widget button,
+         .footer_style_nine .ft-footer-widget .widget-title:before
+         {
+         background-color: #d97500;
+         }
+         .footer_style_nine .ft-footer-widget .ft-footer-info-widget i{
+         color: #d97500;
+         }
+         .footer_style_nine .ft-footer-widget .ft-footer-logo-widget .footer-logo-btn:hover{
+            /*background-color: ;*/
+         }
+         .footer_style_eleven .ft-footer-widget .widget-title{
+         color: #FFFFFF;
+         }
+         .footer_style_eleven .ft-footer-widget .ft-footer-logo-widget p,
+         .footer_style_eleven .ft-footer-widget .ft-footer-newslatter-widget p,
+         .footer_style_eleven .ft-footer-widget .ft-footer-info-widget a,
+         .footer_style_eleven .ft-footer-widget .ft-footer-info-widget .office-open-hour p
+         {
+         color: #9d9d9d;
+         }
+         .footer_style_eleven .ftn-footer-copyright
+         {
+         color: #FFFFFF;
+         }
+         .footer_style_eleven .ft-footer-widget .ft-footer-logo-widget .footer-logo-btn,
+         .footer_style_eleven .ft-footer-widget .ft-footer-newslatter-widget button,
+         .footer_style_eleven .ft-footer-widget .widget-title:before
+         {
+         background-color: #d9262a;
+         }
+         .footer_style_eleven .ft-footer-widget .ft-footer-info-widget i{
+         color: #d9262a;
+         }
+         .footer_style_eleven .ft-footer-widget .ft-footer-logo-widget .footer-logo-btn:hover{
+         /*background-color: ;*/
+         }
+      </style>
+      <noscript>
+         <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
+      </noscript>
+      <meta name="generator" content="Powered by Slider Revolution 6.6.8 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+      <script>function setREVStartSize(e){
+         //window.requestAnimationFrame(function() {
+         	window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+         	window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+         	try {
+         		var pw = document.getElementById(e.c).parentNode.offsetWidth,
+         			newh;
+         		pw = pw===0 || isNaN(pw) || (e.l=="fullwidth" || e.layout=="fullwidth") ? window.RSIW : pw;
+         		e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+         		e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+         		e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+         		e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+         		e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+         		e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+         		e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+         		if(e.layout==="fullscreen" || e.l==="fullscreen")
+         			newh = Math.max(e.mh,window.RSIH);
+         		else{
+         			e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+         			for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
+         			e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+         			e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+         			for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+         								
+         			var nl = new Array(e.rl.length),
+         				ix = 0,
+         				sl;
+         			e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+         			e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+         			e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+         			e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
+         			for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+         			sl = nl[0];
+         			for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+         			var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
+         			newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+         		}
+         		var el = document.getElementById(e.c);
+         		if (el!==null && el) el.style.height = newh+"px";
+         		el = document.getElementById(e.c+"_wrapper");
+         		if (el!==null && el) {
+         			el.style.height = newh+"px";
+         			el.style.display = "block";
+         		}
+         	} catch(e){
+         		console.log("Failure at Presize of Slider:" + e)
+         	}
+         //});
+          };
+      </script>
+   </head>
+   <body class="page-template-default page page-id-21 wp-custom-logo theme-fastrans woocommerce-no-js ehf-template-fastrans ehf-stylesheet-fastrans menu-layer elementor-default elementor-kit-5 elementor-page elementor-page-21">
+        <!--<div class="scroller" >-->
+
+        <!-- Start of header section
+            ============================================= -->
+            <header id="ft-header" class="ft-header-section header-style-two">
+                <div class="ft-header-main-menu-wrapper">
+                    <div class="container-header">
+                        <div class="ft-header-main-menu-area position-relative">
+                            <div class="ft-header-main-menu d-flex align-items-center justify-content-between position-relative">
+                                <div class="ft-site-logo-area">
+                                <div class="ft-site-logo position-relative">
+                                    <a href="./" title=""><img src="assets/img/logo-white.png" alt="logo" style="width:90px;" /></a>							
+                                </div>
+                                </div>
+                                <div class="ft-main-navigation-area">
+                                <nav class="ft-main-navigation clearfix ul-li">
+                                    <ul id="ft-main-nav" class="nav navbar-nav clearfix">                                        
+                                        <li id="menu-item-1270" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1270 dropdown">
+                                            <a title="Services" href="services.html" data-scroll data-options="easing: easeOutQuart">Services</a><!--data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false"-->
+
+                                            <ul role="menu" class="dropdown-menu">
+                                                <div class="content_dropdown">
+                                                    <li id="menu-item-1270" class="dropdown-menu_one">
+                                                <a title="Services" href="services.html">Ground Services</a>
+                                                    <ul role="menu" class="dropleft-menu_one">
+                                                        <li id="menu-item-2204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2204"><a title="Full Truckload (FTL)" href="services/full_truckload.html">Full Truckload (FTL)</a></li>
+                                                        <li id="menu-item-2028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2028"><a title="Less Than Truckload (LTL)" href="services/less.html">Less Than Truckload (LTL)</a></li>
+                                                        <li id="menu-item-2103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2103"><a title="Drayage" href="services/drayage.html">Drayage</a></li>
+                                                        <li id="menu-item-1496" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2103"><a title="Expedited" href="services/expedited.html">Expedited</a></li>
+                                                        <li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a title="Transborder(Canada/Mexico)" href="services/transborder.html">Transborder(Canada/Mexico)</a></li>
+                                                        <li id="menu-item-1269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1269"><a title="Specialized/Out-of-Gauge" href="services/specialized.html">Specialized/Out-of-Gauge</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-menu_two">
+                                                <a title="Services" href="services.html">Global Forwarding</a>
+                                                    <ul role="menu" class="dropleft-menu_two">
+                                                        <li id="menu-item-2204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2204"><a title="Air Freight" href="services/air_freight.html">Air Freight</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-menu_three">
+                                                <a title="Services" href="services.html">Specialized Services</a>
+                                                    <ul role="menu" class="dropleft-menu_three">
+                                                        <li id="menu-item-2204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2204"><a title="Warehousing" href="services/warehousing.html">Warehousing</a></li>
+                                                        <li id="menu-item-2028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2028"><a title="Customs Clearance" href="services/customs_clearance.html">Customs Clearance</a></li>
+                                                    </ul>
+                                                </li>
+                                                </div>
+                                                
+                                            </ul>
+                                        </li>
+                                        <li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a title="Carriers" href="carriers.html" class="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">Carriers</a></li>
+                                        <li id="menu-item-1270" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1270 dropdown">
+                                            <a title="Sectors" href="sectors.html" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">Sectors</a>
+                                            <ul role="menu" class="dropdown-menu clearfix">
+                                                <li id="menu-item-1496" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1496"><a title="Showfreight" href="sectors/showfreight.html">Showfreight</a></li>
+                                                <li id="menu-item-1268" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1268"><a title="Energy" href="sectors/energy.html">Energy</a></li>
+                                                <li id="menu-item-1269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1269"><a title="Technology" href="sectors/technology.html">Technology</a></li>
+                                                <li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a title="E-Commerce" href="sectors/e-commerce.html">E-Commerce</a></li>
+                                                <li id="menu-item-1827" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1827"><a title="Consumer & Retail" href="sectors/consumer.html">Consumer & Retail</a></li>
+                                                <li id="menu-item-1826" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1826"><a title="Industrial" href="sectors/industrial.html">Industrial</a></li>
+                                                <li id="menu-item-1878" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1878"><a title="Aerospace" href="sectors/aerospace.html">Aerospace</a></li>
+                                                <li id="menu-item-2028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2028"><a title="Automotive" href="sectors/automotive.html">Automotive</a></li>
+                                            </ul>
+                                        </li>
+                                        <li id="menu-item-435" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-435"><a title="About" href="about.html" class="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">About Us</a></li>
+                                        <li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a title="Contact" href="contact.html" class="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">Contact Us</a></li>
+                                        <li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a title="Faqs" href="faqs.html" class="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">FAQ</a></li>
+                                    </ul>
+                                </nav>
+                                </div>
+                                <div class="ft-header-cta-btn">
+                                <a class="d-flex justify-content-center align-items-center" href="join_us.html">Join Us</a>
+                                </div>
+                            </div>
+                            <div class="mobile_menu position-relative">
+                                <div class="mobile_menu_button open_mobile_menu">
+                                <i class="fal fa-bars"></i>
+                                </div>
+                                <div class="mobile_menu_wrap">
+                                <div class="mobile_menu_overlay open_mobile_menu"></div>
+                                <div class="mobile_menu_content">
+                                    <div class="mobile_menu_close open_mobile_menu">
+                                        <i class="fal fa-times"></i>
+                                    </div>
+                                    <div class="m-brand-logo">
+                                        <a href="./" title=""><img src="assets/img/logo-white.png" alt="logo" style="width:90px;" /></a>								
+                                    </div>
+                                    <nav class="mobile-main-navigation  clearfix ul-li">
+                                        <ul id="m-main-nav" class="navbar-nav text-capitalize clearfix">
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1270"><a title="Home" href="./" class="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">Home</a></li>
+                                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-1270 dropdown current">
+                                                <a title="Services" href="services.html" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">Services</a>
+                                                <ul role="menu" class="dropdown-menu_one clearfix">
+                                                    <div class="dropleft-menu">
+                                                        <a title="Services" href="services.html">Ground Services</a>
+                                                        <li id="menu-item-2204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2204"><a title="Full Truckload (FTL)" href="services/full_truckload.html">Full Truckload (FTL)</a></li>
+                                                        <li id="menu-item-2028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2028"><a title="Less Than Truckload (LTL)" href="services/less.html">Less Than Truckload (LTL)</a></li>
+                                                        <li id="menu-item-2103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2103"><a title="Drayage" href="services/drayage.html">Drayage</a></li>
+                                                        <li id="menu-item-1496" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2103"><a title="Expedited" href="services/expedited.html">Expedited</a></li>
+                                                        <li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a title="Transborder(Canada/Mexico)" href="services/transborder.html">Transborder(Canada/Mexico)</a></li>
+                                                        <li id="menu-item-1269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1269"><a title="Specialized/Out-of-Gauge" href="services/specialized.html">Specialized/Out-of-Gauge</a></li>
+                                                        <a title="Services" href="services.html">Global Forwarding</a>
+                                                        <li id="menu-item-2204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2204"><a title="Air Freight" href="services/air_freight.html">Air Freight</a></li>
+
+                                                        <a title="Services" href="services.html">Specialized Services</a>
+                                                        <li id="menu-item-2204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2204"><a title="Warehousing" href="services/warehousing.html">Warehousing</a></li>
+                                                        <li id="menu-item-2028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2028"><a title="Customs Clearance" href="services/customs_clearance.html">Customs Clearance</a></li>
+                                                    </div>
+                                                </ul>
+                                             </li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a title="Carriers" href="carriers.html" class="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">Carriers</a></li>
+                                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-1270 dropdown current">
+                                                <a title="Sectors" href="sectors.html" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart">Sectors</a>
+                                                <ul role="menu" class="dropdown-menu clearfix">
+                                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1496"><a title="Showfreight" href="sectors/showfreight.html">Showfreight</a></li>
+                                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1268"><a title="Warehousing" href="sectors/energy.html">Energy</a></li>
+                                                   <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-21 current_page_item menu-item-1269"><a title="Technology" href="sectors/technology.html">Technology</a></li>
+                                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a title="E-Commerce" href="sectors/e-commerce.html">E-Commerce</a></li>
+                                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1827"><a title="Consumer & Retail" href="sectors/consumer.html">Consumer & Retail</a></li>
+                                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1826"><a title="Industrial" href="sectors/industrial.html">Industrial</a></li>
+                                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1878"><a title="Aerospace" href="sectors/aerospace.html">Aerospace</a></li>
+                                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2028"><a title="Automotive" href="sectors/automotive.html">Automotive</a></li>
+                                                </ul>
+                                             </li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-435"><a title="About Us" href="about.html" class="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">About Us</a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a title="Contact" href="contact.html" class="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">Contact Us</a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a title="Join Us" href="join_us.html" class="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">Join Us</a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a title="Faqs" href="faqs.html" class="hvr-underline-from-left1" data-scroll data-options="easing: easeOutQuart">FAQs</a></li>
+    
+                                            </ul>
+                                    </nav>
+                                </div>
+                                </div>
+                                <!-- /Mobile-Menu -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        <!-- End of header section
+
+            ============================================= -->
+            <div id="scroller" class="scroller" >
+                <section id="canvas" class="section-canvas"></section>
+
+                <div class="boxed_wrapper">
+                    <div id="preloader"></div>
+                    <div class="up">
+                        <a href="#" class="scrollup text-center"><i class="fas fa-chevron-up"></i></a>
+                    </div>
+                    <div class="pageloader" style="z-index: 999999;">
+                        <div class="ftloader">
+                        <div class="loader-inner semi-circle-spin">
+                            <div></div>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- Pageloader -->
+                       
+                    <!--Start Blog Page Three-->
+                    <section id="ft-blog-post-feed" class="ft-blog-post-feed-section page-padding">
+                        <div class="container">
+                        <div class="row clearfix">
+                            <div class="content-side col-xs-12 col-sm-12 col-md-12">
+                                <div class="thm-unit-test">
+                                    <div class="ft-blog-post-feed-content">
+                                    <div data-elementor-type="wp-page" data-elementor-id="21" class="elementor elementor-21">
+
+                                        <section id="uno" class="elementor-section elementor-top-section elementor-element elementor-element-3dd8375 elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="3dd8375" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d3cb0a3" data-id="d3cb0a3" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-72bcdf3 elementor-widget elementor-widget-fastrans_home_three_banner" data-id="72bcdf3" data-element_type="widget" data-widget_type="fastrans_home_three_banner.default">
+                                                        <div class="elementor-widget-container">
+                                                        <!-- Start of banner section
+                                                        ============================================= -->
+                                                        <section id="ft-banner" class="ft-banner-section ft-banner-section-h" data-background="assets/img/bg_video.jpg" style="z-index: 2; position: relative;">
+                                                            <video class="videop" id="video_pag" src="assets/videos/video.mp4"  autoplay muted loop poster="img/video_preview.jpg"></video>
+                                                            <!--<div id="video_pag"></div>-->
+                                                            
+
+                                                        <div class="ft-banner-content">
+                                                            <div class="container">
+                                                                <div class="ft-banner-text-content headline pera-content text-center">
+                                                                    <h1 class="cd-headline letters scale">Delivering Success <br> One Logistic Solution
+                                                                    <span class="cd-words-wrapper">
+                                                                        <b class="is-visible">at</b>							
+                                                                        <b>a</b>							
+                                                                        <b>time</b>				
+                                                                    </span>
+                                                                    </h1>
+                                                                    <p> Tailored Logistic Solutions / Further, Faster, Safer.  </p>
+                                                                    <div class="ft-banner-btn-wrapper d-flex justify-content-center align-items-center">
+                                                                    <div class="ft-banner-btn">
+                                                                        <a class="d-flex justify-content-center align-items-center" href="faqs.html">Request a Qoute</a>
+                                                                    </div>
+                                                                    <div class="ft-banner-btn-1">
+                                                                        <a class="d-flex justify-content-center align-items-center" href="contact.html">Contact us</a>
+                                                                    </div>
+                                                                    
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        </section>
+                                                        <!-- End of banner section
+                                                        ============================================= -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </section>
+
+                                        <section id="dos" class="elementor-section elementor-top-section elementor-element elementor-element-92582fe elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="92582fe" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+                                            <div class="dos-section elementor-container elementor-column-gap-default">
+                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-14f1d9c" data-id="14f1d9c" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-456a2d8 elementor-widget elementor-widget-fastrans_what_we_do_v2" data-id="456a2d8" data-element_type="widget" data-widget_type="fastrans_what_we_do_v2.default1">
+                                                        <div class="elementor-widget-container">
+                                                        <!-- Start of Service section
+                                                        ============================================= -->
+
+                                                        <section id="ft-service-3" class="ft-service-section-3 pd-3">
+                                                            <div class="container_dos">
+                                                                <div class="ft-section-title-3 headline text-center">
+                                                                    <span class="text-uppercase">WE SPECIALISE IN THE TRANSPORTATION</span>                    
+                                                                    <h2 class="h2-specialist">Specialist Logistics Services</h2>
+                                                                </div>
+                                                                <div class="ft-service-content-3">
+                                                                    <div class="ft-service-content-items-3">
+                                                                    <div class="row justify-content-center">
+                                                                        <div class="col-lg-4 col-md-6">
+                                                                            <div class="ft-service-innerbox-3 position-relative">
+                                                                                <div class="ft-service-img position-relative">
+                                                                                <img loading="lazy" width="370" height="290" src="assets/img/specialist-1.png" class="attachment-fastrans_370x290 size-fastrans_370x290 wp-post-image" alt="" decoding="async" srcset="assets/img/specialist-1.png" sizes="(max-width: 370px) 100vw, 370px" />                                    
+                                                                                </div>
+                                                                                <div class="ft-service-text-icon position-relative">
+                                                                                <div class="ft-service-icon d-flex align-items-center justify-content-center position-absolute">
+                                                                                    <i class="flaticon-plane"></i>
+                                                                                </div>
+                                                                                <div class="ft-service-text position-relative headline pera-content">
+                                                                                    <h3><a href="#">Are You A Shipper</a></h3>
+                                                                                    <p>Our team of service-oriented, results-driven logistics professionals pride themselves on meeting customers needs.</p>
+                                                                                </div>
+                                                                                </div>
+                                                                                <div class="more-btn position-absolute">
+                                                                                <a class="d-flex align-items-center justify-content-center text-uppercase" href="faqs.html"> Get a Quote<i class="far fa-arrow-right"></i></a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-4 col-md-6">
+                                                                            <div class="ft-service-innerbox-3 position-relative">
+                                                                                <div class="ft-service-img position-relative">
+                                                                                <img width="370" height="290" src="assets/img/specialist-2.png" class="attachment-fastrans_370x290 size-fastrans_370x290 wp-post-image" alt="" decoding="async" loading="lazy" srcset="assets/img/specialist-2.png" sizes="(max-width: 370px) 100vw, 370px" />                                    
+                                                                                </div>
+                                                                                <div class="ft-service-text-icon position-relative">
+                                                                                <div class="ft-service-icon d-flex align-items-center justify-content-center position-absolute">
+                                                                                    <i class="flaticon-boat"></i>
+                                                                                </div>
+                                                                                <div class="ft-service-text position-relative headline pera-content">
+                                                                                    <h3><a href="#">Are You A Carrier</a></h3>
+                                                                                    <p>With thousands of shipments picked up each week, wherever you want to go, we have a load to get you there.</p>
+                                                                                </div>
+                                                                                </div>
+                                                                                <div class="more-btn position-absolute">
+                                                                                <a class="d-flex align-items-center justify-content-center text-uppercase" href="faqs.html">Get a Quote<i class="far fa-arrow-right"></i></a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-4 col-md-6">
+                                                                            <div class="ft-service-innerbox-3 position-relative">
+                                                                                <div class="ft-service-img position-relative">
+                                                                                <img width="370" height="290" src="assets/img/specialist-3.png" class="attachment-fastrans_370x290 size-fastrans_370x290 wp-post-image" alt="" decoding="async" loading="lazy" srcset="assets/img/specialist-3.png" sizes="(max-width: 370px) 100vw, 370px" />                                    
+                                                                                </div>
+                                                                                <div class="ft-service-text-icon position-relative">
+                                                                                <div class="ft-service-icon d-flex align-items-center justify-content-center position-absolute">
+                                                                                    <i class="flaticon-free-shipping"></i>
+                                                                                </div>
+                                                                                <div class="ft-service-text position-relative headline pera-content">
+                                                                                    <h3><a href="#">Do You Have An AOG</a></h3>
+                                                                                    <p>e have a 24/7 team of professionals that can provide immediate solutions for your AOG/Critical shipments.</p>
+                                                                                </div>
+                                                                                </div>
+                                                                                <div class="more-btn position-absolute">
+                                                                                <a class="d-flex align-items-center justify-content-center text-uppercase" href="faqs.html"> Get a Quote <i class="far fa-arrow-right"></i></a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </section>
+                                                        <!-- End of Service section
+                                                            ============================================= -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </section>
+
+
+                                        <section id="tres" class="elementor-section elementor-top-section elementor-element elementor-element-0a9bea5 elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="0a9bea5" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-22e4ec0" data-id="22e4ec0" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-e41ca19 elementor-widget elementor-widget-fastrans_about_us_v3" data-id="e41ca19" data-element_type="widget" data-widget_type="fastrans_about_us_v3.default">
+                                                        <div class="elementor-widget-container">
+                                                            <!-- Start of About section
+                                                            ============================================= -->
+                                                            <section id="ft-about-2" class="ft-about-section-2">
+                                                                <div class="container_tres">
+                                                                    <div class="ft-about-content-2" id="tres-content">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-6" style="display: flex; align-items: center;">
+                                                                                <div class="ft-about-text-wrapper-2">
+                                                                                    <div class="ft-section-title-2 headline pera-content">
+                                                                                        <h2 class="h2-full-t">Full Truckload (FTL)</h2>
+                                                                                        <p class="p-full-t">Our Truckload service to customers is optimized by the technology we
+                                                                                            have incorporated to improve the custiomer experience. </p>
+                                                                                        <div class="mt-10"></div>
+                                                                                        <p class="p-full-t">Sciens logistics provides trucking solutions for a variety of
+                                                                                            industries. your freights safety and transit is our main priority. To learn more about
+                                                                                            our FTL trucking services to talk with our professionals to plan your FTL trucking
+                                                                                            services, get in touch with ad at 768-244-5903. </p>
+                                                            
+                                                                                    </div>
+                                                            
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-lg-6">
+                                                                                <div class="ft-about-img-2-wrapper wrapper-responsive position-relative" style="height:400px;">
+                                                                                    <div class="ft-about-img-2">
+                                                                                        <img decoding="async" src="assets/img/ab2.png" alt="Awesome Image" style="visibility: hidden;">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-lg-12">
+                                                                                <div class="ft-about-feature-wrapper-2">
+                                                                                    <div class="row">
+                                                                                        <div class="col-lg-4">
+                                                                                            <div class="ft-about-feature-list-item d-flex align-items-center">
+                                                                                                <div class="ft-about-feature-text headline pera-content">
+                                                                                                    <a href="#">
+                                                                                                        <h3 class="h3-full-t">Customer services</h3>
+                                                                                                    </a>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col-lg-4">
+                                                                                            <div class="ft-about-feature-list-item d-flex align-items-center">
+                                                                                                <div class="ft-about-feature-text headline pera-content">
+                                                                                                    <a href="#">
+                                                                                                        <h3 class="h3-full-t">Live GPS tracking</h3>
+                                                                                                    </a>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col-lg-4">
+                                                                                            <div class="ft-about-feature-list-item d-flex align-items-center">
+                                                                                                <div class="ft-about-feature-text headline pera-content">
+                                                                                                    <a href="#">
+                                                                                                        <h3 class="h3-full-t">Dedicated support team</h3>
+                                                                                                    </a>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </section>
+                                                            <!-- End of About section
+                                                            ============================================= -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </section>
+
+                                        <section id="gap" style="height: 0vw;"></section>
+
+                                        <section class="elementor-section elementor-top-section elementor-element elementor-element-ee6d1ab elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="ee6d1ab" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+                                            <div  id="cuatro" class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7cfc1e7" data-id="7cfc1e7" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-359e414 elementor-widget elementor-widget-fastrans_our_skills" data-id="359e414" data-element_type="widget" data-widget_type="fastrans_our_skills.default">
+                                                        <div class="elementor-widget-container">
+                                                            <!-- Start of Experience section
+                                                            ============================================= -->
+                                                            <section id="ft-experience" class="ft-experience-section" >
+                                                            <div class="container_cuatro">
+                                                                <div class="ft-experience-content">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-8">
+                                                                            <div class="ft-experience-text">
+                                                                                <div class="ft-section-title-2 headline pera-content">            				
+                                                                                    <h2 class="h2-experience"> What does AOG mean?</h2>
+                                                                                </div>
+                                                                                <p class="p-experience">Aircraft on Ground means that a plane can not fly for technical reasons. For everyone involved – the airline, passengers and senders of airfreight – this is a troubling scenario. A grounded airplane creates delays in air traffic, cancelation of flights und unhappy customers. This can get very expensive and generates daily costs in the six- and seven-digit area.</p>
+                                                                            </div>
+                                                                
+                                                                            <div class="ft-btn-3">
+                                                                                <a class="d-flex justify-content-center align-items-center bt-2-carriers" href="#">LEARN MORE</a>
+                                                                            </div>
+                                            
+                                                                        </div>
+                                                                        <div class="col-lg-4 kilom-responsive" style="display: flex; align-items: center; justify-content: flex-end;">
+                                                                            <div id="kilometros">
+                                                                                <div id="dot"></div>
+                                                                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                                x="0px" y="0px" viewBox="0 0 1024 1024" xml:space="preserve">
+                                                                                <g>
+                                                                                    <path class="st0" d="M512,1023.5c-69.1,0-136-13.5-199.1-40.2c-60.9-25.8-115.6-62.6-162.6-109.6c-47-47-83.9-101.7-109.6-162.6
+                                                                                        C14,648,0.5,581.1,0.5,512c0-69.1,13.5-136,40.2-199.1c25.8-60.9,62.6-115.6,109.6-162.6c47-47,101.7-83.9,162.6-109.6
+                                                                                        C376,14,442.9,0.5,512,0.5c69.1,0,136,13.5,199.1,40.2c60.9,25.8,115.6,62.6,162.6,109.6c47,47,83.9,101.7,109.6,162.6
+                                                                                        c26.7,63.1,40.2,130,40.2,199.1c0,69.1-13.5,136-40.2,199.1c-25.8,60.9-62.6,115.6-109.6,162.6c-47,47-101.7,83.9-162.6,109.6
+                                                                                        C648,1010,581.1,1023.5,512,1023.5z" />
+                                                                                    <path d="M512,1c69,0,135.9,13.5,198.9,40.2c60.8,25.7,115.5,62.6,162.4,109.5c46.9,46.9,83.8,101.6,109.5,162.4
+                                                                                        c26.6,63,40.2,129.9,40.2,198.9s-13.5,135.9-40.2,198.9c-25.7,60.8-62.6,115.5-109.5,162.4c-46.9,46.9-101.6,83.8-162.4,109.5
+                                                                                        c-63,26.6-129.9,40.2-198.9,40.2s-135.9-13.5-198.9-40.2c-60.8-25.7-115.5-62.6-162.4-109.5c-46.9-46.9-83.8-101.6-109.5-162.4
+                                                                                        C14.5,647.9,1,581,1,512s13.5-135.9,40.2-198.9c25.7-60.8,62.6-115.5,109.5-162.4c46.9-46.9,101.6-83.8,162.4-109.5
+                                                                                        C376.1,14.5,443,1,512,1 M512,0C229.2,0,0,229.2,0,512s229.2,512,512,512s512-229.2,512-512S794.8,0,512,0L512,0z" />
+                                                                                </g>
+                                                                                </svg>
+                                                                                <div id="kilometrosnum">0</div> km
+                                                                                <div id="tiempo">
+                                                                                <div id="tiemponum">19</div>  horas
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            </section>
+                                                            <!-- End of Experience section
+                                                            ============================================= -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </section>
+
+                                        <div id="mark1"></div>
+                                        <section id="cinco" style="background: transparent;">
+                                        <section class="elementor-section elementor-top-section elementor-element elementor-element-92582fe elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="92582fe" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-14f1d9c" data-id="14f1d9c" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-456a2d8 elementor-widget elementor-widget-fastrans_what_we_do_v2" data-id="456a2d8" data-element_type="widget" data-widget_type="fastrans_what_we_do_v2.default11">
+                                                        <div class="elementor-widget-container">
+                                                        <!-- Start of Service section
+                                                            ============================================= -->
+                                                        <section id="ft-service-2" class="ft-service-section-2 position-relative">
+                                                            <!--<span class="ft-service-bg position-absolute"> <img decoding="async" src="assets/img/banner-contact1.png" alt="Awesome Image"></span>-->            
+                                                            <div class="container">
+                                                                <div class="ft-service-content-2-11111">
+                                                                    <div id="lodisna-grande"><span>SCIENS</span></div>
+                                                                    <div id="carrusel-imagenes">
+                                                                        <div class="carrusel-img carrusel-img1"></div>
+                                                                        <div class="carrusel-img carrusel-img2"></div>
+                                                                        <div class="carrusel-img carrusel-img3"></div>
+                                                                        <div class="carrusel-img carrusel-img4"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </section>
+                                                        <!-- End of Service section
+                                                            ============================================= -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </section>
+
+                                        <section id="home-calidad"  class="elementor-section elementor-top-section elementor-element elementor-element-c8db29c elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="c8db29c" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d6cabff" data-id="d6cabff" data-element_type="column">
+                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                    <div class="elementor-element elementor-element-318d825 elementor-widget elementor-widget-fastrans_our_features" data-id="318d825" data-element_type="widget" data-widget_type="fastrans_our_features.default">
+                                                        <div class="elementor-widget-container">
+                                                            <!-- Start of featured section
+                                                            ============================================= -->
+                                                            <section id="ft-featured" class="ft-featured-section">
+                                                            <div class="container">
+                                                                <div class="ft-section-title-2 headline pera-content text-center">                
+                                                                    <h2 class="h2-logistics">Logistics solutions for you and your  business.</h2>
+                                                                    <p class="p-logistics">No matter what you’re shipping or how often, we have a solution for you.
+                                                                        Discover how we can improve your logistics.</p>
+                                                                </div>
+
+                                                                <div class="mt-100"></div>
+                                                                <h4 class="h4-logistics">Services</h4>
+                                                                <div class="ft-featured-content" style="padding-top: 0px">
+                                                                    <div class="msc-industry msc-industry--v2 separator--top-medium " x-data="mscIndustry()" x-init="init()">
+                                                                        <div class="grid-container">
+                                                                        <div class="grid-x">
+                                                                            <div class="cell small-12">
+                                                                                <div class="msc-industry__wrapper">
+                                                                                    <div id="msc-industry__bg-wrapper" class="msc-industry__bg-wrapper"></div>
+                                                                                    <ul class="msc-industry__list">
+                                                                                    <li class="msc-industry__item" :class="{ 'active' : active == '0DFF78DD1675481992E80F51C5976428' }" @mouseover="active = '0DFF78DD1675481992E80F51C5976428'">
+                                                                                        <img src="assets/img/services-home.png" class="msc-industry__image visuallyhidden" alt="Services" data-id="0DFF78DD1675481992E80F51C5976428" />
+                                                                                        <div class="msc-industry__item-card">
+                                                                                            <a href="#" class="msc-industry__icon" title="Ground Services" >                        
+                                                                                            <img src="assets/img/sello-1.png" width="200">
+                                                                                            </a>
+                                                                                            <a href="#" class="msc-industry__title" title="Ground Services" ><span>Ground Services</span></a>
+                                                                                            
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li class="msc-industry__item" :class="{ 'active' : active == '86CFDD6F7CDE4C758E6F26538252E568' }" @mouseover="active = '86CFDD6F7CDE4C758E6F26538252E568'">
+                                                                                        <img src="assets/home/img/images/Panorama.jpg?w=1880&amp;hash=87893B5A4D762DAF5A1C91EB90D89797" class="msc-industry__image visuallyhidden" alt="Services" data-id="86CFDD6F7CDE4C758E6F26538252E568" />
+                                                                                        <div class="msc-industry__item-card">
+                                                                                            <a href="#" class="msc-industry__icon" title="Global Forwarding" >                        
+                                                                                            <img src="assets/img/sello-2.png" width="200">
+                                                                                            </a>
+                                                                                            <a href="#" class="msc-industry__title" title="Global Forwarding" ><span>Global Forwarding</span></a>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    <li class="msc-industry__item" :class="{ 'active' : active == '732ED7B868FE4985A9C0347E516DCF1A' }" @mouseover="active = '732ED7B868FE4985A9C0347E516DCF1A'">
+                                                                                        <img src="assets/home/img/images/Specialized_services.jpg" class="msc-industry__image visuallyhidden" alt="Services" data-id="732ED7B868FE4985A9C0347E516DCF1A" />
+                                                                                        <div class="msc-industry__item-card">
+                                                                                            <a href="#" class="msc-industry__icon" title="Specialized Services" >                        
+                                                                                            <img src="assets/img/sello-3.png" width="200">
+                                                                                            </a>
+                                                                                            <a href="#" class="msc-industry__title" title="Specialized Services" ><span>Specialized Services</span></a>
+                                                                                            
+                                                                                        </div>
+                                                                                    </li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                                <div class="msc-industry__cta">	
+                                                                                    <div class="ft-btn-3">
+                                                                                        <a class="d-flex justify-content-center align-items-center bt-2-carriers" href="#">See all solutions</a>			
+
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            </section>
+
+                                                            <!-- End of featured section
+                                                            ============================================= -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </section>
+
+                                        <section id="sectors"
+                                            class="elementor-section elementor-top-section elementor-element elementor-element-3eff2b4 elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default"
+                                            data-id="3eff2b4" data-element_type="section"
+                                            data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3450f1e"
+                                                    data-id="3450f1e" data-element_type="column">
+                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                        <div class="elementor-element elementor-element-c69d4b9 elementor-widget elementor-widget-fastrans_our_projects_v3"
+                                                            data-id="c69d4b9" data-element_type="widget" data-widget_type="fastrans_our_projects_v3.default">
+                                                            <div class="elementor-widget-container">
+                                                                <!-- Start of Project section
+                                              ============================================= -->
+                                                                <section id="ft-portfolio-2" class="ft-portfolio-section-2 position-relative">
+                                                                    <div class="ft-section-title-2 headline pera-content text-center">
+                                                                        <h2>Sectors</h2>
+                                                                    </div>
+                                                                    <div class="ft-portfolio-content-2">
+                                                                        <div class="ft-portfolio-slider-2">
+                                                                            <div class="ft-portfolio-slider-item">
+                                                                                <div class="ft-portfolio-slider-innerbox position-relative">
+                                                                                    <div class="ft-project-img">
+                                                                                        <img width="473" height="500" src="assets/img/sectors/Showfreight.png"
+                                                                                            class="attachment-fastrans_473x500 size-fastrans_473x500 wp-post-image"
+                                                                                            alt="" decoding="async" loading="lazy"
+                                                                                            srcset="assets/img/sectors/Showfreight.png"
+                                                                                            sizes="(max-width: 473px) 100vw, 473px" />
+                                                                                    </div>
+                                                                                    <div class="ft-portfolio-text headline headline pera-content">
+                                                                                        <h3>
+                                                                                            <a href="sectors/showfreight.html">Showfreight</a>
+                                                                                        </h3>
+                                                                                        <p></p>
+                                                                                        <div class="ft-btn-3">
+                                                                                            <a class="d-flex justify-content-center align-items-center"
+                                                                                                href="sectors/showfreight.html">Read More <i
+                                                                                                    class="flaticon-right-arrow"></i>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="ft-portfolio-slider-item">
+                                                                                <div class="ft-portfolio-slider-innerbox position-relative">
+                                                                                    <div class="ft-project-img">
+                                                                                        <img width="473" height="500" src="assets/img/sectors/energy1.png"
+                                                                                            class="attachment-fastrans_473x500 size-fastrans_473x500 wp-post-image"
+                                                                                            alt="" decoding="async" loading="lazy"
+                                                                                            srcset="assets/img/sectors/energy1.png"
+                                                                                            sizes="(max-width: 473px) 100vw, 473px" />
+                                                                                    </div>
+                                                                                    <div class="ft-portfolio-text headline headline pera-content">
+                                                                                        <h3>
+                                                                                            <a href="sectors/energy.html">Energy</a>
+                                                                                        </h3>
+                                                                                        <p></p>
+                                                                                        <div class="ft-btn-3">
+                                                                                            <a class="d-flex justify-content-center align-items-center"
+                                                                                                href="sectors/energy.html">Read More <i
+                                                                                                    class="flaticon-right-arrow"></i>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="ft-portfolio-slider-item">
+                                                                                <div class="ft-portfolio-slider-innerbox position-relative">
+                                                                                    <div class="ft-project-img">
+                                                                                        <img width="473" height="500" src="assets/img/sectors/Technology1.png"
+                                                                                            class="attachment-fastrans_473x500 size-fastrans_473x500 wp-post-image"
+                                                                                            alt="" decoding="async" loading="lazy"
+                                                                                            srcset="assets/img/sectors/Technology1.png"
+                                                                                            sizes="(max-width: 473px) 100vw, 473px" />
+                                                                                    </div>
+                                                                                    <div class="ft-portfolio-text headline headline pera-content">
+                                                                                        <h3>
+                                                                                            <a href="sectors/technology.html">Technology</a>
+                                                                                        </h3>
+                                                                                        <p></p>
+                                                                                        <div class="ft-btn-3">
+                                                                                            <a class="d-flex justify-content-center align-items-center"
+                                                                                                href="sectors/technology.html">Read More <i
+                                                                                                    class="flaticon-right-arrow"></i>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="ft-portfolio-slider-item">
+                                                                                <div class="ft-portfolio-slider-innerbox position-relative">
+                                                                                    <div class="ft-project-img">
+                                                                                        <img width="473" height="500" src="assets/img/sectors/ecommerce.png"
+                                                                                            class="attachment-fastrans_473x500 size-fastrans_473x500 wp-post-image"
+                                                                                            alt="" decoding="async" loading="lazy"
+                                                                                            srcset="assets/img/sectors/ecommerce.png"
+                                                                                            sizes="(max-width: 473px) 100vw, 473px" />
+                                                                                    </div>
+                                                                                    <div class="ft-portfolio-text headline headline pera-content">
+                                                                                        <h3>
+                                                                                            <a href="sectors/e-commerce.html">E-Commerce</a>
+                                                                                        </h3>
+                                                                                        <p></p>
+                                                                                        <div class="ft-btn-3">
+                                                                                            <a class="d-flex justify-content-center align-items-center"
+                                                                                                href="sectors/e-commerce.html">Read More <i
+                                                                                                    class="flaticon-right-arrow"></i>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="ft-portfolio-slider-item">
+                                                                                <div class="ft-portfolio-slider-innerbox position-relative">
+                                                                                    <div class="ft-project-img">
+                                                                                        <img width="473" height="500" src="assets/img/sectors/Consumer.png"
+                                                                                            class="attachment-fastrans_473x500 size-fastrans_473x500 wp-post-image"
+                                                                                            alt="" decoding="async" loading="lazy"
+                                                                                            srcset="assets/img/sectors/Consumer.png"
+                                                                                            sizes="(max-width: 473px) 100vw, 473px" />
+                                                                                    </div>
+                                                                                    <div class="ft-portfolio-text headline headline pera-content">
+                                                                                        <h3>
+                                                                                            <a href="sectors/consumer.html">Consumer & Retail</a>
+                                                                                        </h3>
+                                                                                        <p></p>
+                                                                                        <div class="ft-btn-3">
+                                                                                            <a class="d-flex justify-content-center align-items-center"
+                                                                                                href="sectors/consumer.html">Read More <i
+                                                                                                    class="flaticon-right-arrow"></i>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="ft-portfolio-slider-item">
+                                                                                <div class="ft-portfolio-slider-innerbox position-relative">
+                                                                                    <div class="ft-project-img">
+                                                                                        <img width="473" height="500" src="assets/img/sectors/industrial1.png"
+                                                                                            class="attachment-fastrans_473x500 size-fastrans_473x500 wp-post-image"
+                                                                                            alt="" decoding="async" loading="lazy"
+                                                                                            srcset="assets/img/sectors/industrial1.png"
+                                                                                            sizes="(max-width: 473px) 100vw, 473px" />
+                                                                                    </div>
+                                                                                    <div class="ft-portfolio-text headline headline pera-content">
+                                                                                        <h3>
+                                                                                            <a href="sectors/industrial.html">Industrial</a>
+                                                                                        </h3>
+                                                                                        <p></p>
+                                                                                        <div class="ft-btn-3">
+                                                                                            <a class="d-flex justify-content-center align-items-center"
+                                                                                                href="sectors/industrial.html">Read More <i
+                                                                                                    class="flaticon-right-arrow"></i>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="ft-portfolio-slider-item">
+                                                                                <div class="ft-portfolio-slider-innerbox position-relative">
+                                                                                    <div class="ft-project-img">
+                                                                                        <img width="473" height="500" src="assets/img/sectors/aeroespace1.png"
+                                                                                            class="attachment-fastrans_473x500 size-fastrans_473x500 wp-post-image"
+                                                                                            alt="" decoding="async" loading="lazy" />
+                                                                                    </div>
+                                                                                    <div class="ft-portfolio-text headline headline pera-content">
+                                                                                        <h3>
+                                                                                            <a href="sectors/aerospace.html">Aerospace</a>
+                                                                                        </h3>
+                                                                                        <p></p>
+                                                                                        <div class="ft-btn-3">
+                                                                                            <a class="d-flex justify-content-center align-items-center"
+                                                                                                href="sectors/aerospace.html">Read More <i
+                                                                                                    class="flaticon-right-arrow"></i>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="ft-portfolio-slider-item">
+                                                                                <div class="ft-portfolio-slider-innerbox position-relative">
+                                                                                    <div class="ft-project-img">
+                                                                                        <img width="473" height="500" src="assets/img/sectors/AUTOMOTIVE.png"
+                                                                                            class="attachment-fastrans_473x500 size-fastrans_473x500 wp-post-image"
+                                                                                            alt="" decoding="async" loading="lazy" />
+                                                                                    </div>
+                                                                                    <div class="ft-portfolio-text headline headline pera-content">
+                                                                                        <h3>
+                                                                                            <a href="sectors/automotive.html">Automotive</a>
+                                                                                        </h3>
+                                                                                        <p></p>
+                                                                                        <div class="ft-btn-3">
+                                                                                            <a class="d-flex justify-content-center align-items-center"
+                                                                                                href="sectors/automotive.html">Read More <i
+                                                                                                    class="flaticon-right-arrow"></i>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </section> <!-- End of Project section
+                                            ============================================= -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        
+                                        <section id="testimonials"
+                                            class="elementor-section elementor-top-section elementor-element elementor-element-368a10f elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default"
+                                            data-id="368a10f" data-element_type="section"
+                                            data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-90787b3"
+                                                    data-id="90787b3" data-element_type="column">
+                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                        <div class="elementor-element elementor-element-210a530 elementor-widget elementor-widget-fastrans_our_testimonials_v2"
+                                                            data-id="210a530" data-element_type="widget"
+                                                            data-widget_type="fastrans_our_testimonials_v2.default">
+                                                            <div class="elementor-widget-container">
+                                                                <!-- Start of Testimonial section
+                                                                                                    ============================================= -->
+                                                                <section id="ft-testimonial" class="ft-testimonial-section position-relative">
+                                                                    <span class="ft-testimonial-map text-center position-absolute"><img decoding="async"
+                                                                            src="assets/img/map-1.png" alt="Awesome Image"></span>
+                                                                    <div class="container">
+                                                                        <div class="ft-section-title headline pera-content text-center">
+                                                                            <span class="sub-title">Testimonial</span>
+                                                                            <h2 class="h2-testimonial">What People and Clients Think About Us?</h2>
+                                                                        </div>
+                                                                        <div class="ft-testimonial-slider-wrapper">
+                                                                            <div class="ft-testimonial-slider-area">
+                                                                                <div class="ft-item-innerbox">
+                                                                                    <div class="ft-testimonial-item-innerbox">
+                                                                                        <div class="ft-testimonial-item-img-wrapper position-relative">
+                                                                                            <div class="ft-testimonial-item-img">
+                                                                                                <img width="70" height="70" src="assets/img/comment-1.jpg"
+                                                                                                    class="attachment-fastrans_70x70 size-fastrans_70x70 wp-post-image"
+                                                                                                    alt="" decoding="async" loading="lazy" />
+                                                                                            </div>
+                                        
+                                                                                        </div>
+                                                                                        <div class="ft-testimonial-text-item text-center">
+                                                                                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                                                                                            posuere cubilia curae; finibus malesuada.
+                                                                                        </div>
+                                                                                        <div class="ft-testimonial-name headline position-relative">
+                                                                                            <span class="ft-testimonial-shape"></span>
+                                                                                            <h3>John Doe</h3>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="ft-item-innerbox">
+                                                                                    <div class="ft-testimonial-item-innerbox">
+                                                                                        <div class="ft-testimonial-item-img-wrapper position-relative">
+                                                                                            <div class="ft-testimonial-item-img">
+                                                                                                <img width="70" height="70" src="assets/img/author-1.jpg"
+                                                                                                    class="attachment-fastrans_70x70 size-fastrans_70x70 wp-post-image"
+                                                                                                    alt="" decoding="async" loading="lazy" />
+                                                                                            </div>
+                                        
+                                                                                        </div>
+                                                                                        <div class="ft-testimonial-text-item text-center">
+                                                                                            Morbi placerat neque. Morbi venenatis. Donec dignissim dui et
+                                                                                            efficitur, luctus nunc maximus. Curabitur ornare.
+                                                                                        </div>
+                                                                                        <div class="ft-testimonial-name headline position-relative">
+                                                                                            <span class="ft-testimonial-shape"></span>
+                                                                                            <h3>jon doe</h3>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="ft-item-innerbox">
+                                                                                    <div class="ft-testimonial-item-innerbox">
+                                                                                        <div class="ft-testimonial-item-img-wrapper position-relative">
+                                                                                            <div class="ft-testimonial-item-img">
+                                                                                                <img width="70" height="70" src="assets/img/author-3-70x70.jpg"
+                                                                                                    class="attachment-fastrans_70x70 size-fastrans_70x70 wp-post-image"
+                                                                                                    alt="" decoding="async" loading="lazy"
+                                                                                                    srcset="assets/img/author-3-70x70.jpg"
+                                                                                                    sizes="(max-width: 70px) 100vw, 70px" />
+                                                                                            </div>
+                                        
+                                                                                        </div>
+                                                                                        <div class="ft-testimonial-text-item text-center">
+                                                                                            Curabitur vehicula fermentum iaculis. Praesent cursus eros finibus
+                                                                                            sem gravida, quis data tempus lectus varius.
+                                                                                        </div>
+                                                                                        <div class="ft-testimonial-name headline position-relative">
+                                                                                            <span class="ft-testimonial-shape"></span>
+                                                                                            <h3>jane salima</h3>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="ft-item-innerbox">
+                                                                                    <div class="ft-testimonial-item-innerbox">
+                                                                                        <div class="ft-testimonial-item-img-wrapper position-relative">
+                                                                                            <div class="ft-testimonial-item-img">
+                                                                                                <img width="70" height="70"
+                                                                                                    src="assets/uploads/sites/2/2021/10/tst2.jpg"
+                                                                                                    class="attachment-fastrans_70x70 size-fastrans_70x70 wp-post-image"
+                                                                                                    alt="" decoding="async" loading="lazy" />
+                                                                                            </div>
+                                        
+                                                                                        </div>
+                                                                                        <div class="ft-testimonial-text-item text-center">
+                                                                                            Ut pharetra neque sit amet urna pulvinar venenatis. Suspendisse
+                                                                                            iaculis blandit libero, condimentum dui consequat.
+                                                                                        </div>
+                                                                                        <div class="ft-testimonial-name headline position-relative">
+                                                                                            <span class="ft-testimonial-shape"></span>
+                                                                                            <h3>steve powers</h3>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="ft-item-innerbox">
+                                                                                    <div class="ft-testimonial-item-innerbox">
+                                                                                        <div class="ft-testimonial-item-img-wrapper position-relative">
+                                                                                            <div class="ft-testimonial-item-img">
+                                                                                                <img width="70" height="70"
+                                                                                                    src="assets/uploads/sites/2/2021/10/tst1.jpg"
+                                                                                                    class="attachment-fastrans_70x70 size-fastrans_70x70 wp-post-image"
+                                                                                                    alt="" decoding="async" loading="lazy" />
+                                                                                            </div>
+                                        
+                                                                                        </div>
+                                                                                        <div class="ft-testimonial-text-item text-center">
+                                                                                            Rhoncus odio, finibus molestie leo. Aliquam erat volutpat. Aenean
+                                                                                            mauris massa, accumsan gravida, tempor elit.
+                                                                                        </div>
+                                                                                        <div class="ft-testimonial-name headline position-relative">
+                                                                                            <span class="ft-testimonial-shape"></span>
+                                                                                            <h3>erin chang</h3>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </section>
+                                                                <!-- End of Testimonial section
+                                                                                                    ============================================= -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <div id="mark2"></div>
+                                        <!--<div id="cinco-1" style="height:350px;"></div>-->
+                                        
+                                        <section id="cinco"
+                                            class="elementor-section elementor-top-section elementor-element elementor-element-e13ede1 elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default"
+                                            data-id="e13ede1" data-element_type="section"
+                                            data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+                                            <div class="elementor-container elementor-column-gap-default">
+                                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c9d45a9"
+                                                    data-id="c9d45a9" data-element_type="column">
+                                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                                        <div class="elementor-element elementor-element-471ff8d elementor-widget elementor-widget-fastrans_faqs_and_services"
+                                                            data-id="471ff8d" data-element_type="widget" data-widget_type="fastrans_faqs_and_services.default">
+                                                            <div class="elementor-widget-container">
+                                                                <!-- Start of FAQ why choose  section
+                                                                                                    ============================================= -->
+                                                                <section id="ft-faq-why-choose-us" class="ft-faq-why-choose-us-section"
+                                                                    style="margin-top:50px;">
+                                                                    <div class="container">
+                                                                        <div class="ft-faq-why-choose-content">
+                                                                            <div id="client-line"></div>
+                                                                            <div id="logos-clientes">
+                                                                                <div id="clientes-1">
+                                                                                    <div class="cliente-h"><img src="assets/img/logo/vanduuren.png"></div>
+                                                                                    <div class="cliente-h"><img src="assets/img/logo/decathlon.png"></div>
+                                                                                    <div class="cliente-h"><img src="assets/img/logo/fedex.png"></div>
+                                                                                    <div class="cliente-h"><img src="assets/img/logo/toyota.png"></div>
+                                                                                    <div class="cliente-h"><img src="assets/img/logo/volkswagen.png"></div>
+                                                                                    <div class="cliente-h"><img src="assets/img/logo/nissan.png"></div>
+                                                                                    <div class="cliente-h"><img src="assets/img/logo/rockwool.png"></div>
+                                                                                    <div class="cliente-h"><img src="assets/img/logo/kiabi.png"></div>
+                                                                                    <div class="cliente-h"><img src="assets/img/logo/oromas.png"></div>
+                                                                                </div>
+                                                                                <div id="clientes-2">
+                                                                                    <div class="cliente-h"><img src="assets/img/logo/repsol.png"></div>
+                                                                                    <div class="cliente-h"><img src="assets/img/logo/pladur.png"></div>
+                                                                                    <div class="cliente-h"><img src="assets/img/logo/inditex.png"></div>
+                                                                                    <div class="cliente-h"><img src="assets/img/logo/caterpillar.png"></div>
+                                                                                    <div class="cliente-h"><img src="assets/img/logo/pepsi.png"></div>
+                                                                                    <div class="cliente-h"><img src="assets/img/logo/aludium.png"></div>
+                                                                                    <div class="cliente-h"><img src="assets/img/logo/mondial-relay.png"></div>
+                                                                                    <div class="cliente-h"><img src="assets/img/logo/wepa.png"></div>
+                                                                                    <div class="cliente-h"><img src="assets/img/logo/vidrala.png"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </section>
+                                                                <!-- End of FAQ why choose  section
+                                                                                                    ============================================= -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="ft-blog-comment headline">
+                                        </div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        </section>
+                                        
+                                        
+                                        <!-- blog section with pagination -->
+                                        <div class="clearfix"></div>
+                                        <div class="pageloader" style="z-index: 999999;">
+                                            <div class="ftloader">
+                                                <div class="loader-inner semi-circle-spin">
+                                                    <div></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Pageloader -->
+                                        <!-- Start Of Footer section
+                                                                ============================================= -->
+                                        <footer id="ft-footer-3" class="ft-footer-section-3" data-background="assets/img/bn_footer.png">
+                                            <div class="ft-footer-widget-wrapper-3">
+                                                <div class="container container-footer">
+                                                    <div class="ft-footer-content-wrap-3">
+                                                        <div class="row-footer">
+                                                            <div class="footer-det1 wow animated fadeInUp footer-visibility">
+                                                                <div id="fastrans_about_company-1"
+                                                                    class="footer-widget ft-footer-widget widget_fastrans_about_company">
+                                                                    <div class="ft-footer-logo-widget headline pera-content">
+                                                                        <div class="ft-footer-logo">
+                                                                            <a href="../index.html"><img src="assets/img/logo-white.png"
+                                                                                    alt="Awesome Image"></a>
+                                                                        </div>
+                                                                        <p>Sciens Logistics is is headquartered in Deerfield Beach, Florida and specializes in
+                                                                            assisting customers with a complete supply chain solution around the globe.
+                                                                            It´s our constant endeavor to help customers with economical & effective solutions.
+                                                                        </p>
+                                        
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="footer-det wow animated fadeInUp footer-visibility">
+                                                                <div id="fastrans_newsletter-1"
+                                                                    class="footer-widget ft-footer-widget widget_fastrans_newsletter">
+                                                                    <!--Start single footer widget-->
+                                                                    <div class="ft-footer-newslatter-widget pera-content headline">
+                                                                        <h3 class="widget-title">Social Media</h3>
+                                                                        <ul>
+                                                                            <li><a href="#">Facebook</a></li>
+                                                                            <li><a href="#">Instagram</a></li>
+                                                                            <li><a href="#">Youtube</a></li>
+                                                                            <li><a href="#">Twitter</a></li>
+                                                                            <li><a href="#">LikedIn</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="footer-det wow animated fadeInUp footer-visibility">
+                                                                <div id="fastrans_contact_info-1"
+                                                                    class="footer-widget ft-footer-widget widget_fastrans_contact_info">
+                                                                    <!--Start single footer widget-->
+                                                                    <div class="ft-footer-newslatter-widget pera-content headline">
+                                                                        <h3 class="widget-title">Contact Us</h3>
+                                                                        <ul>
+                                                                            <li><a href="tel:+786-244-5903">786-244-5903</a></li>
+                                                                            <li><a href="mailto:Quotes@scienslogistics.com"
+                                                                                    class="a-footer">Quotes@scienslogistics.com</a></li>
+                                                                            <li><a href="#">Get Started </a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="footer-det wow animated fadeInUp footer-visibility">
+                                                                <div id="fastrans_our_projects_v2-1"
+                                                                    class="footer-widget ft-footer-widget widget_fastrans_our_projects_v2">
+                                                                    <!-- Instagram Widget -->
+                                                                    <div class="pera-content">
+                                                                        <div class="ft-footer-newslatter-widget pera-content headline">
+                                                                            <h3 class="widget-title">Explore</h3>
+                                                                            <ul>
+                                                                                <li><a href="services.html">Services</a></li>
+                                                                                <li><a href="carriers.html">Carriers</a></li>
+                                                                                <li><a href="sectors.html">Sectors</a></li>
+                                                                                <li><a href="about.html">About</a></li>
+                                                                                <li><a href="join.html">Join</a></li>
+                                                                                <li><a href="contact.html">Contact</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ft-footer-copyright">
+                                                        <span>© 2023 Fastrans - Sciens Logistics. All rights reserved.</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </footer>
+                                        <!-- End of Footer section
+                                                                ============================================= -->
+                                        </div>
+                                        </div>
+                                        
+                                        
+                                        <!--</div>-->
+                                        <!--End Page Wrapper-->
+                                        <script>
+                                            window.RS_MODULES = window.RS_MODULES || {};
+                                            window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+                                            window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+                                            window.RS_MODULES.defered = true;
+                                            window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+                                            window.RS_MODULES.type = 'compiled';
+                                        </script>
+                                        <script>(function () {
+                                                function maybePrefixUrlField() {
+                                                    if (this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+                                                        this.value = "http://" + this.value;
+                                                    }
+                                                }
+
+                                                var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+                                                if (urlFields) {
+                                                    for (var j = 0; j < urlFields.length; j++) {
+                                                        urlFields[j].addEventListener('blur', maybePrefixUrlField);
+                                                    }
+         }
+         })();
+      </script>	<script type="text/javascript">
+         (function () {
+         	var c = document.body.className;
+         	c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+         	document.body.className = c;
+         })();
+      </script>
+      <link rel='stylesheet' id='hfe-widgets-style-css' href='assets/plugins/header-footer-elementor/inc/widgets-css/frontend1f62.css?ver=1.6.13' type='text/css' media='all' />
+      <link rel='stylesheet' id='rs-plugin-settings-css' href='assets/plugins/revslider/public/assets/css/rs6f7b3.css?ver=6.6.8' type='text/css' media='all' />
+      <style id='rs-plugin-settings-inline-css' type='text/css'>
+         #rs-demo-id {}
+      </style>
+      <script type='text/javascript' src='assets/plugins//woocommerce/assets/js/jquery-blockui/jquery.blockUI.min53ec.js?ver=2.7.0-wc.7.1.0' id='jquery-blockui-js'></script>
+      <script type='text/javascript' id='wc-add-to-cart-js-extra'>
+         /* <![CDATA[ */
+         var wc_add_to_cart_params = {"ajax_url":"\/fastrans-theme\/fastrans\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/fastrans-theme\/fastrans\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/themexriver.com\/fastrans-theme\/fastrans\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+         /* ]]> */
+      </script>
+      <script type='text/javascript' src='assets/plugins//woocommerce/assets/js/frontend/add-to-cart.min9d27.js?ver=7.1.0' id='wc-add-to-cart-js'></script>
+      <script type='text/javascript' src='assets/plugins//woocommerce/assets/js/js-cookie/js.cookie.min8b1a.js?ver=2.1.4-wc.7.1.0' id='js-cookie-js'></script>
+      <script type='text/javascript' id='woocommerce-js-extra'>
+         /* <![CDATA[ */
+         var woocommerce_params = {"ajax_url":"\/fastrans-theme\/fastrans\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/fastrans-theme\/fastrans\/?wc-ajax=%%endpoint%%"};
+         /* ]]> */
+      </script>
+      <script type='text/javascript' src='assets/plugins//woocommerce/assets/js/frontend/woocommerce.min9d27.js?ver=7.1.0' id='woocommerce-js'></script>
+      <script type='text/javascript' id='wc-cart-fragments-js-extra'>
+         /* <![CDATA[ */
+         var wc_cart_fragments_params = {"ajax_url":"\/fastrans-theme\/fastrans\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/fastrans-theme\/fastrans\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_2a2f23f7eb56b74f9d82540cee347036","fragment_name":"wc_fragments_2a2f23f7eb56b74f9d82540cee347036","request_timeout":"5000"};
+         /* ]]> */
+      </script>
+      <script type='text/javascript' src='assets/plugins//woocommerce/assets/js/frontend/cart-fragments.min9d27.js?ver=7.1.0' id='wc-cart-fragments-js'></script>
+      <script type='text/javascript' src='assets/plugins/contact-form-7/includes/swv/js/index77e1.js?ver=5.6.4' id='swv-js'></script>
+      <script type='text/javascript' id='contact-form-7-js-extra'>
+         /* <![CDATA[ */
+         var wpcf7 = {"api":{"root":"https:\/\/themexriver.com\/fastrans-theme\/fastrans\/wp-json\/","namespace":"contact-form-7\/v1"}};
+         /* ]]> */
+      </script>
+        <!--section services-->
+        <script type="text/javascript" src="assets/js/main2c40.js" ></script>
+  
+        <!--JS ANIMACION INICIO-->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js'></script>
+        <!--<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothState.js/0.5.6/jquery.smoothState.min.js"></script>
+        <script src="assets/home/js/ScrollTrigger.min.js"></script>
+        <script src="assets/home/js/DrawSVGPlugin.min.js"></script>
+        <script src='https://unpkg.com/smooth-scrollbar@latest/dist/smooth-scrollbar.js'></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.5/owl.carousel.min.js"></script>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src='assets/home/js/SplitText.js'></script>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+        <script src="assets/home/js/generalscripts.js" id="general-scripts"></script>
+        <script src="assets/home/js/homescripts.js" id="homescripts"></script>
+        <script type="module" src="assets/home/js/threejs.js" id="threejs"></script>
+        <!--JS ANIMACION FIN-->
+
+
+
+      <script type='text/javascript' src='assets/plugins/contact-form-7/includes/js/index77e1.js?ver=5.6.4' id='contact-form-7-js'></script>
+      <script type='text/javascript' src='assets/plugins/revslider/public/assets/js/rbtools.minf7b3.js?ver=6.6.8' defer async id='tp-tools-js'></script>
+      <script type='text/javascript' src='assets/plugins/revslider/public/assets/js/rs6.minf7b3.js?ver=6.6.8' defer async id='revmin-js'></script>
+      <script type='text/javascript' src='assets/js/core.min3f14.js?ver=1.13.2' id='jquery-ui-core-js'></script>
+      <script type='text/javascript' src='assets/js/popper.min431f.js?ver=2.1.2' id='popper-js'></script>
+      <script type='text/javascript' src='assets/js/bootstrap.min431f.js?ver=2.1.2' id='bootstrap-js'></script>
+      <script type='text/javascript' src='assets/js/jquery-ui.min431f.js?ver=2.1.2' id='jquery-ui-js'></script>
+      <script type='text/javascript' src='assets/js/mouse.min3f14.js?ver=1.13.2' id='jquery-ui-mouse-js'></script>
+      <script type='text/javascript' src='assets/js/jquery.ui.touch-punchc682.js?ver=0.2.2' id='jquery-touch-punch-js'></script>
+      <script type='text/javascript' src='assets/js/jquery.magnific-popup.min431f.js?ver=2.1.2' id='jquery-magnific-popup-js'></script>
+      <script type='text/javascript' src='assets/js/owl.carousel.min431f.js?ver=2.1.2' id='owl-carousel-js'></script>
+      <script type='text/javascript' src='assets/js/appear431f.js?ver=2.1.2' id='appear-js'></script>
+      <script type='text/javascript' src='assets/js/slick431f.js?ver=2.1.2' id='slick-js'></script>
+      <script type='text/javascript' src='assets/js/jquery.counterup.min431f.js?ver=2.1.2' id='jquery-counterup-js'></script>
+      <script type='text/javascript' src='assets/js/waypoints.min431f.js?ver=2.1.2' id='waypoints-js'></script>
+      <script type='text/javascript' src='assets/js/imagesloaded.mineda1.js?ver=4.1.4' id='imagesloaded-js'></script>
+      <script type='text/javascript' src='assets/js/jquery.mCustomScrollbar.concat.min431f.js?ver=2.1.2' id='jquery-mcustomscrollbar-js'></script>
+      <script type='text/javascript' src='assets/js/wow.min431f.js?ver=2.1.2' id='wow-js'></script>
+      <script type='text/javascript' src='assets/js/jquery.cssslider.min431f.js?ver=2.1.2' id='jquery-css-slider-js'></script>
+      <script type='text/javascript' src='assets/js/rbtools.min431f.js?ver=2.1.2' defer async id='rbtools-js'></script>
+      <script type='text/javascript' src='assets/js/animation-loading431f.js?ver=2.1.2' id='animation-loading-js'></script>
+      <script type='text/javascript' src='assets/js/knob431f.js?ver=2.1.2' id='knob-js'></script>
+      <script type='text/javascript' src='assets/js/typer431f.js?ver=2.1.2' id='typer-js'></script>
+      <script type='text/javascript' src='assets/js/mixitup431f.js?ver=2.1.2' id='mixitup-js'></script>
+      <script type='text/javascript' src='assets/js/script6a4d.js?ver=6.1.1' id='fastrans-main-script-js'></script>
+      <script type='text/javascript' src='assets/js/script-new6a4d.js?ver=6.1.1' id='fastrans-script-new-js'></script>
+      <script type='text/javascript' src='assets/js/transport-script6a4d.js?ver=6.1.1' id='fastrans-transport-script-js'></script>
+      <script type='text/javascript' src='assets/js/comment-reply.min6a4d.js?ver=6.1.1' id='comment-reply-js'></script>
+      <script type='text/javascript' defer src='assets/plugins/mailchimp-for-wp/assets/js/formse0ed.js?ver=4.8.11' id='mc4wp-forms-api-js'></script>
+      <script type='text/javascript' src='assets/plugins/elementor/assets/js/webpack.runtime.min7e2e.js?ver=3.8.1' id='elementor-webpack-runtime-js'></script>
+      <script type='text/javascript' src='assets/plugins/elementor/assets/js/frontend-modules.min7e2e.js?ver=3.8.1' id='elementor-frontend-modules-js'></script>
+      <script type='text/javascript' src='assets/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2' id='elementor-waypoints-js'></script>
+
+
+      <script type='text/javascript' id='elementor-frontend-js-before'>
+         var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.8.1","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"a11y_improvements":true,"additional_custom_breakpoints":true,"e_import_export":true,"e_hidden_wordpress_widgets":true,"landing-pages":true,"elements-color-picker":true,"favorite-widgets":true,"admin-top-bar":true},"urls":{"assets":"https:\/\/themexriver.com\/fastrans-theme\/fastrans\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":21,"title":"Home%20Page%2003","excerpt":"","featuredImage":false}};
+      </script>
+      <script type='text/javascript' src='assets/plugins/elementor/assets/js/frontend.min7e2e.js?ver=3.8.1' id='elementor-frontend-js'></script>
+      <script>
+        document.getElementById("ft-header").style.display = "none";
+            var lastScrollTop = 150;
+            window.addEventListener("scroll", function(){ 
+               var st = window.pageYOffset || document.documentElement.scrollTop;  
+               if (st == lastScrollTop){
+                  // downscroll code
+                  document.getElementById("ft-header").style.display = "none";
+     
+        
+               }else{
+                  if (st < 150){
+                     document.getElementById("ft-header").style.display = "none";
+     
+                  }else{
+                     document.getElementById("ft-header").style.display = "block";
+     
+                  }
+        
+            
+            }
+               
+               lastScrollTop = st;
+            });
+        </script>
+        <script>
+
+        var elemento = document.getElementById("scroller");
+            if (screen.width <= 1000){
+                elemento.classList.remove('scroller');
+
+                elemento.classList.add('scroller1');
+            } 
+        </script>
+   </body>
+</html>
